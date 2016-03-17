@@ -8,6 +8,8 @@
 
 #import "DDStatus.h"
 
+#import "DDUser.h"
+
 @implementation DDStatus
 
 - (DDStatus *)initWithCreateAt:(NSString *)createAt source:(NSString *)source text:(NSString *)text user:(DDUser *)user

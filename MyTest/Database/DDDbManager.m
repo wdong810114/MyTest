@@ -27,8 +27,9 @@ DEFINE_SINGLETON_IMPLEMENTATION(DDDbManager)
 
 - (void)openDb:(NSString *)dbname
 {
-    NSString *directory = [NSSearchPathForDirectoriesInDomains(NSDocumentationDirectory, NSUserDomainMask, YES) firstObject];
-    NSString *filePath=[directory stringByAppendingPathComponent:dbname];
+    NSString *directory = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+    NSString *filePath = [directory stringByAppendingPathComponent:dbname];
+    NSLog(@"filePath: %@", filePath);
     if(SQLITE_OK == sqlite3_open(filePath.UTF8String, &_database)) {
         NSLog(@"数据库打开成功!");
     } else {

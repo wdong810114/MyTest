@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "DDUser.h"
+@class DDUser;
 
 @interface DDStatus : NSObject
 
