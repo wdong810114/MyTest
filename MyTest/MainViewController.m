@@ -23,9 +23,9 @@
 {
     self = [super init];
     if(self) {
-        _viewControllers = @[@{@"title" : @"Animation1", @"class" : @"Animation1ViewController"},
-                             @{@"title" : @"KVC1", @"class" : @"KVC1ViewController"},
-                             @{@"title" : @"Database1", @"class" : @"Database1ViewController"}];
+        _viewControllers = @[@{@"title" : @"KeyAnimation", @"class" : @"Animation1ViewController"},
+                             @{@"title" : @"SimpleKVC", @"class" : @"KVC1ViewController"},
+                             @{@"title" : @"SqliteDatabase", @"class" : @"Database1ViewController"}];
     }
     
     return self;
