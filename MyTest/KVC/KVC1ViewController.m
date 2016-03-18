@@ -48,9 +48,4 @@
 //    NSLog(@"num: %@", num);
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-}
-
 @end

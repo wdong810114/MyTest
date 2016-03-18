@@ -25,11 +25,6 @@
     [self.view addSubview:self.animationView];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-}
-
 - (void)animationButtonClicked
 {
     [self doAnimation];
