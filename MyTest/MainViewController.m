@@ -25,7 +25,8 @@
     if(self) {
         _viewControllers = @[@{@"title" : @"KeyAnimation", @"class" : @"Animation1ViewController"},
                              @{@"title" : @"SimpleKVC", @"class" : @"KVC1ViewController"},
-                             @{@"title" : @"SqliteDatabase", @"class" : @"Database1ViewController"}];
+                             @{@"title" : @"SqliteDatabase", @"class" : @"Database1ViewController"},
+                             @{@"title" : @"CoreDataDatabase", @"class" : @"Database2ViewController"}];
     }
     
     return self;

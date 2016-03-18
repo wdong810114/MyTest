@@ -46,6 +46,11 @@
 //    NSNumber *num = @999;
 //    NSLog(@"num: %@", [NSString stringWithFormat:@"%@", num]);
 //    NSLog(@"num: %@", num);
+    
+    NSArray *URLs = [[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask];
+    [URLs enumerateObjectsUsingBlock:^(NSURL *URL, NSUInteger idx, BOOL *stop) {
+        NSLog(@"URL: %@", URL.absoluteString);
+    }];
 }
 
 @end

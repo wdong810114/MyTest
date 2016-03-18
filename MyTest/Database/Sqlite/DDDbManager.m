@@ -9,7 +9,7 @@
 #import "DDDbManager.h"
 
 #ifndef kDatabaseName
-#define kDatabaseName @"myDatabase.db"
+#define kDatabaseName @"SqliteDatabase.db"
 #endif
 
 @implementation DDDbManager
