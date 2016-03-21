@@ -2,23 +2,19 @@
 //  Status.h
 //  MyTest
 //
-//  Created by wangdongdong on 16/3/17.
+//  Created by wangdongdong on 16/3/21.
 //  Copyright © 2016年 Spark. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import <CoreData/CoreData.h>
 
-@class User;
+#import "User.h"
 
-NS_ASSUME_NONNULL_BEGIN
+@interface Status : NSObject
 
-@interface Status : NSManagedObject
-
-// Insert code here to declare functionality of your managed object subclass
+@property (nonatomic, strong) NSDate *createdAt;
+@property (nonatomic, copy) NSString *source;
+@property (nonatomic, copy) NSString *text;
+@property (nonatomic, strong) User *user;
 
 @end
-
-NS_ASSUME_NONNULL_END
-
-#import "Status+CoreDataProperties.h"

@@ -20,7 +20,7 @@
 
 @implementation Database1ViewController
 {
-    NSArray *_status;
+    NSArray *_statuses;
 }
 
 - (void)viewDidLoad
@@ -35,7 +35,7 @@
     
     [self addStatus];
     
-    _status = [[DDStatusService sharedDDStatusService] getAllStatus];
+    _statuses = [[DDStatusService sharedDDStatusService] getAllStatus];
     [self.view addSubview:self.tableView];
 }
 
@@ -82,7 +82,7 @@
 #pragma mark - UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return _status.count;
+    return _statuses.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -100,7 +100,7 @@
         cell.detailTextLabel.textColor = [UIColor lightGrayColor];
     }
     
-    DDStatus *status = _status[indexPath.row];
+    DDStatus *status = _statuses[indexPath.row];
     cell.textLabel.text = status.user.name;
     cell.detailTextLabel.text = status.text;
     

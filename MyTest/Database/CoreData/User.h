@@ -2,23 +2,18 @@
 //  User.h
 //  MyTest
 //
-//  Created by wangdongdong on 16/3/17.
+//  Created by wangdongdong on 16/3/21.
 //  Copyright © 2016年 Spark. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import <CoreData/CoreData.h>
 
-@class Status;
+@interface User : NSObject
 
-NS_ASSUME_NONNULL_BEGIN
-
-@interface User : NSManagedObject
-
-// Insert code here to declare functionality of your managed object subclass
+@property (nonatomic, copy) NSString *city;
+@property (nonatomic, copy) NSString *mbtype;
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *profileImageUrl;
+@property (nonatomic, copy) NSString *screenName;
 
 @end
-
-NS_ASSUME_NONNULL_END
-
-#import "User+CoreDataProperties.h"

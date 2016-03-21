@@ -12,7 +12,15 @@
 		4C6E9A641C965ECC00692DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E9A631C965ECC00692DDC /* Assets.xcassets */; };
 		4C6E9A671C965ECC00692DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E9A651C965ECC00692DDC /* LaunchScreen.storyboard */; };
 		4C6E9A6F1C96619800692DDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6E9A6E1C96619800692DDC /* CoreGraphics.framework */; };
+		4CE471031C9F848500B2836A /* UserManagedObject+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE470FC1C9F848500B2836A /* UserManagedObject+CoreDataProperties.m */; };
+		4CE471041C9F848500B2836A /* UserManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE470FE1C9F848500B2836A /* UserManagedObject.m */; };
+		4CE471051C9F848500B2836A /* StatusManagedObject+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE471001C9F848500B2836A /* StatusManagedObject+CoreDataProperties.m */; };
+		4CE471061C9F848500B2836A /* StatusManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE471021C9F848500B2836A /* StatusManagedObject.m */; };
+		4CE471091C9F853F00B2836A /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE471081C9F853F00B2836A /* User.m */; };
+		4CE4710C1C9F855100B2836A /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4710B1C9F855100B2836A /* Status.m */; };
 		4CEBB8921C9BD79B006E7121 /* Database2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEBB8911C9BD79B006E7121 /* Database2ViewController.m */; };
+		4CEBB8BC1C9BEBB1006E7121 /* CoreDataDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEBB8BB1C9BEBB1006E7121 /* CoreDataDAO.m */; };
+		4CEBB8BF1C9BF11B006E7121 /* UserDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEBB8BE1C9BF11B006E7121 /* UserDAO.m */; };
 		4CF680ED1C9A3782000591DA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF680EC1C9A3782000591DA /* MainViewController.m */; };
 		4CF681281C9A3A8A000591DA /* Animation1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF681121C9A3A89000591DA /* Animation1ViewController.m */; };
 		4CF6812F1C9A3A8A000591DA /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF681231C9A3A8A000591DA /* BaseModel.m */; };
@@ -27,10 +35,6 @@
 		4CF6814D1C9A93CE000591DA /* DDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF681451C9A93CE000591DA /* DDUser.m */; };
 		4CF6814E1C9A93CE000591DA /* DDUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF681471C9A93CE000591DA /* DDUserService.m */; };
 		4CF681521C9A97BD000591DA /* myDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CF681501C9A97BD000591DA /* myDatabase.xcdatamodeld */; };
-		4CF6816D1C9AA1AF000591DA /* Status+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF681661C9AA1AF000591DA /* Status+CoreDataProperties.m */; };
-		4CF6816E1C9AA1AF000591DA /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF681681C9AA1AF000591DA /* Status.m */; };
-		4CF6816F1C9AA1AF000591DA /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF6816A1C9AA1AF000591DA /* User+CoreDataProperties.m */; };
-		4CF681701C9AA1AF000591DA /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF6816C1C9AA1AF000591DA /* User.m */; };
 		4CFDFE9D1C97DFC300293883 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFDFE9C1C97DFC300293883 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
@@ -43,9 +47,25 @@
 		4C6E9A661C965ECC00692DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C6E9A681C965ECC00692DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C6E9A6E1C96619800692DDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CE470FB1C9F848500B2836A /* UserManagedObject+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UserManagedObject+CoreDataProperties.h"; sourceTree = "<group>"; };
+		4CE470FC1C9F848500B2836A /* UserManagedObject+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UserManagedObject+CoreDataProperties.m"; sourceTree = "<group>"; };
+		4CE470FD1C9F848500B2836A /* UserManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManagedObject.h; sourceTree = "<group>"; };
+		4CE470FE1C9F848500B2836A /* UserManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManagedObject.m; sourceTree = "<group>"; };
+		4CE470FF1C9F848500B2836A /* StatusManagedObject+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "StatusManagedObject+CoreDataProperties.h"; sourceTree = "<group>"; };
+		4CE471001C9F848500B2836A /* StatusManagedObject+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "StatusManagedObject+CoreDataProperties.m"; sourceTree = "<group>"; };
+		4CE471011C9F848500B2836A /* StatusManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusManagedObject.h; sourceTree = "<group>"; };
+		4CE471021C9F848500B2836A /* StatusManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusManagedObject.m; sourceTree = "<group>"; };
+		4CE471071C9F853F00B2836A /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		4CE471081C9F853F00B2836A /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		4CE4710A1C9F855100B2836A /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
+		4CE4710B1C9F855100B2836A /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
 		4CEBB8901C9BD79B006E7121 /* Database2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database2ViewController.h; sourceTree = "<group>"; };
 		4CEBB8911C9BD79B006E7121 /* Database2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database2ViewController.m; sourceTree = "<group>"; };
 		4CEBB8931C9BD81F006E7121 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		4CEBB8BA1C9BEBB1006E7121 /* CoreDataDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataDAO.h; sourceTree = "<group>"; };
+		4CEBB8BB1C9BEBB1006E7121 /* CoreDataDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataDAO.m; sourceTree = "<group>"; };
+		4CEBB8BD1C9BF11B006E7121 /* UserDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDAO.h; sourceTree = "<group>"; };
+		4CEBB8BE1C9BF11B006E7121 /* UserDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDAO.m; sourceTree = "<group>"; };
 		4CF680EB1C9A3782000591DA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		4CF680EC1C9A3782000591DA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		4CF681111C9A3A89000591DA /* Animation1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation1ViewController.h; sourceTree = "<group>"; };
@@ -74,14 +94,6 @@
 		4CF681461C9A93CE000591DA /* DDUserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDUserService.h; sourceTree = "<group>"; };
 		4CF681471C9A93CE000591DA /* DDUserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDUserService.m; sourceTree = "<group>"; };
 		4CF681511C9A97BD000591DA /* myDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myDatabase.xcdatamodel; sourceTree = "<group>"; };
-		4CF681651C9AA1AF000591DA /* Status+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Status+CoreDataProperties.h"; sourceTree = "<group>"; };
-		4CF681661C9AA1AF000591DA /* Status+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Status+CoreDataProperties.m"; sourceTree = "<group>"; };
-		4CF681671C9AA1AF000591DA /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
-		4CF681681C9AA1AF000591DA /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
-		4CF681691C9AA1AF000591DA /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
-		4CF6816A1C9AA1AF000591DA /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataProperties.m"; sourceTree = "<group>"; };
-		4CF6816B1C9AA1AF000591DA /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
-		4CF6816C1C9AA1AF000591DA /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		4CFDFE9C1C97DFC300293883 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -203,15 +215,23 @@
 			children = (
 				4CEBB8901C9BD79B006E7121 /* Database2ViewController.h */,
 				4CEBB8911C9BD79B006E7121 /* Database2ViewController.m */,
-				4CF681651C9AA1AF000591DA /* Status+CoreDataProperties.h */,
-				4CF681661C9AA1AF000591DA /* Status+CoreDataProperties.m */,
-				4CF681671C9AA1AF000591DA /* Status.h */,
-				4CF681681C9AA1AF000591DA /* Status.m */,
-				4CF681691C9AA1AF000591DA /* User+CoreDataProperties.h */,
-				4CF6816A1C9AA1AF000591DA /* User+CoreDataProperties.m */,
-				4CF6816B1C9AA1AF000591DA /* User.h */,
-				4CF6816C1C9AA1AF000591DA /* User.m */,
+				4CEBB8BA1C9BEBB1006E7121 /* CoreDataDAO.h */,
+				4CEBB8BB1C9BEBB1006E7121 /* CoreDataDAO.m */,
+				4CEBB8BD1C9BF11B006E7121 /* UserDAO.h */,
+				4CEBB8BE1C9BF11B006E7121 /* UserDAO.m */,
 				4CF681501C9A97BD000591DA /* myDatabase.xcdatamodeld */,
+				4CE470FB1C9F848500B2836A /* UserManagedObject+CoreDataProperties.h */,
+				4CE470FC1C9F848500B2836A /* UserManagedObject+CoreDataProperties.m */,
+				4CE470FD1C9F848500B2836A /* UserManagedObject.h */,
+				4CE470FE1C9F848500B2836A /* UserManagedObject.m */,
+				4CE470FF1C9F848500B2836A /* StatusManagedObject+CoreDataProperties.h */,
+				4CE471001C9F848500B2836A /* StatusManagedObject+CoreDataProperties.m */,
+				4CE471011C9F848500B2836A /* StatusManagedObject.h */,
+				4CE471021C9F848500B2836A /* StatusManagedObject.m */,
+				4CE471071C9F853F00B2836A /* User.h */,
+				4CE471081C9F853F00B2836A /* User.m */,
+				4CE4710A1C9F855100B2836A /* Status.h */,
+				4CE4710B1C9F855100B2836A /* Status.m */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -286,26 +306,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CEBB8921C9BD79B006E7121 /* Database2ViewController.m in Sources */,
-				4CF681701C9AA1AF000591DA /* User.m in Sources */,
 				4CF681481C9A93CE000591DA /* Database1ViewController.m in Sources */,
 				4CF681371C9A43A4000591DA /* BaseViewController.m in Sources */,
 				4CF6814A1C9A93CE000591DA /* DDDbManager.m in Sources */,
 				4CF6812F1C9A3A8A000591DA /* BaseModel.m in Sources */,
 				4CF681311C9A3A8A000591DA /* PersonInfoModel.m in Sources */,
+				4CE471051C9F848500B2836A /* StatusManagedObject+CoreDataProperties.m in Sources */,
 				4CF6814B1C9A93CE000591DA /* DDStatus.m in Sources */,
+				4CE471091C9F853F00B2836A /* User.m in Sources */,
 				4C6E9A5C1C965ECC00692DDC /* AppDelegate.m in Sources */,
-				4CF6816E1C9AA1AF000591DA /* Status.m in Sources */,
 				4CF681281C9A3A8A000591DA /* Animation1ViewController.m in Sources */,
 				4CF680ED1C9A3782000591DA /* MainViewController.m in Sources */,
-				4CF6816F1C9AA1AF000591DA /* User+CoreDataProperties.m in Sources */,
+				4CEBB8BC1C9BEBB1006E7121 /* CoreDataDAO.m in Sources */,
+				4CE471031C9F848500B2836A /* UserManagedObject+CoreDataProperties.m in Sources */,
 				4C6E9A591C965ECC00692DDC /* main.m in Sources */,
 				4CF681521C9A97BD000591DA /* myDatabase.xcdatamodeld in Sources */,
-				4CF6816D1C9AA1AF000591DA /* Status+CoreDataProperties.m in Sources */,
 				4CF6814E1C9A93CE000591DA /* DDUserService.m in Sources */,
+				4CEBB8BF1C9BF11B006E7121 /* UserDAO.m in Sources */,
+				4CE4710C1C9F855100B2836A /* Status.m in Sources */,
 				4CF6814D1C9A93CE000591DA /* DDUser.m in Sources */,
+				4CE471041C9F848500B2836A /* UserManagedObject.m in Sources */,
 				4CF681301C9A3A8A000591DA /* KVC1ViewController.m in Sources */,
 				4CF681491C9A93CE000591DA /* DDDatabaseCreator.m in Sources */,
 				4CF6814C1C9A93CE000591DA /* DDStatusService.m in Sources */,
+				4CE471061C9F848500B2836A /* StatusManagedObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
