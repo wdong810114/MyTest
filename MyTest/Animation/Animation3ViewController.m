@@ -8,6 +8,9 @@
 
 #import "Animation3ViewController.h"
 
+#import "StatusMessageHandle.h"
+#import "StatusMessageView.h"
+
 @interface Animation3ViewController ()
 
 @property (nonatomic, strong) UIView *moveView;
@@ -52,6 +55,8 @@
     [button2 setTitle:@"透明度" forState:UIControlStateNormal];
     [button2 addTarget:self action:@selector(changeUIView2) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button2];
+    
+    [self performSelector:@selector(showStatusMessage) withObject:nil afterDelay:2.0];
 }
 
 - (void)changeUIView
@@ -71,8 +76,8 @@
     transition.subtype = kCATransitionFromTop;
 //    transition.startProgress = 0.1;
 //    transition.endProgress = 0.5;
-    [self.view exchangeSubviewAtIndex:1 withSubviewAtIndex:0];
     [self.view.layer addAnimation:transition forKey:@"animation"];
+    [self.view exchangeSubviewAtIndex:1 withSubviewAtIndex:0];
 }
 
 - (void)changeUIView1
@@ -103,6 +108,25 @@
                                              } completion:^(BOOL finished) {
                                              }];
                      }];
+}
+
+- (void)transitionWithType:(NSString *)type subtype:(NSString *)subtype view:(UIView *)view
+{
+    CATransition *animation = [CATransition animation];
+    animation.duration = 1.0;
+    animation.type = type;
+    if(subtype) {
+        animation.subtype = subtype;
+    }
+    animation.timingFunction = UIViewAnimationOptionCurveEaseInOut;
+    [view.layer addAnimation:animation forKey:@"animation"];
+}
+
+- (void)showStatusMessage
+{
+    [StatusMessageHandle showAndHideDuration:2.0];
+    [StatusMessageHandle showWithView:[StatusMessageView messageViewWithTitle:@"Hello world!" backgroundColor:[UIColor whiteColor]]
+                     hideAfterSeconds:3.0];
 }
 
 @end

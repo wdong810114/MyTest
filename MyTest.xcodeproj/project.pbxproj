@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4C41F3631CA22A8D006B71FD /* Animation3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C41F3621CA22A8D006B71FD /* Animation3ViewController.m */; };
+		4C41F3671CA270F9006B71FD /* StatusMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C41F3661CA270F9006B71FD /* StatusMessageView.m */; };
+		4C41F36A1CA2741B006B71FD /* StatusMessageHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C41F3691CA2741B006B71FD /* StatusMessageHandle.m */; };
 		4C6E9A591C965ECC00692DDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E9A581C965ECC00692DDC /* main.m */; };
 		4C6E9A5C1C965ECC00692DDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E9A5B1C965ECC00692DDC /* AppDelegate.m */; };
 		4C6E9A641C965ECC00692DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E9A631C965ECC00692DDC /* Assets.xcassets */; };
@@ -43,6 +45,11 @@
 /* Begin PBXFileReference section */
 		4C41F3611CA22A8D006B71FD /* Animation3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation3ViewController.h; sourceTree = "<group>"; };
 		4C41F3621CA22A8D006B71FD /* Animation3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation3ViewController.m; sourceTree = "<group>"; };
+		4C41F3641CA26601006B71FD /* StatusMessageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusMessageProtocol.h; sourceTree = "<group>"; };
+		4C41F3651CA270F9006B71FD /* StatusMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusMessageView.h; sourceTree = "<group>"; };
+		4C41F3661CA270F9006B71FD /* StatusMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusMessageView.m; sourceTree = "<group>"; };
+		4C41F3681CA2741B006B71FD /* StatusMessageHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusMessageHandle.h; sourceTree = "<group>"; };
+		4C41F3691CA2741B006B71FD /* StatusMessageHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusMessageHandle.m; sourceTree = "<group>"; };
 		4C6E9A541C965ECC00692DDC /* MyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6E9A581C965ECC00692DDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C6E9A5A1C965ECC00692DDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -172,6 +179,11 @@
 				4CECDABE1CA13D72006F18C5 /* Animation2ViewController.m */,
 				4C41F3611CA22A8D006B71FD /* Animation3ViewController.h */,
 				4C41F3621CA22A8D006B71FD /* Animation3ViewController.m */,
+				4C41F3641CA26601006B71FD /* StatusMessageProtocol.h */,
+				4C41F3681CA2741B006B71FD /* StatusMessageHandle.h */,
+				4C41F3691CA2741B006B71FD /* StatusMessageHandle.m */,
+				4C41F3651CA270F9006B71FD /* StatusMessageView.h */,
+				4C41F3661CA270F9006B71FD /* StatusMessageView.m */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -321,6 +333,7 @@
 				4CF681371C9A43A4000591DA /* BaseViewController.m in Sources */,
 				4CF6814A1C9A93CE000591DA /* DDDbManager.m in Sources */,
 				4CF6812F1C9A3A8A000591DA /* BaseModel.m in Sources */,
+				4C41F36A1CA2741B006B71FD /* StatusMessageHandle.m in Sources */,
 				4CF681311C9A3A8A000591DA /* PersonInfoModel.m in Sources */,
 				4C41F3631CA22A8D006B71FD /* Animation3ViewController.m in Sources */,
 				4CE471051C9F848500B2836A /* StatusManagedObject+CoreDataProperties.m in Sources */,
@@ -333,6 +346,7 @@
 				4CE471031C9F848500B2836A /* UserManagedObject+CoreDataProperties.m in Sources */,
 				4C6E9A591C965ECC00692DDC /* main.m in Sources */,
 				4CF681521C9A97BD000591DA /* myDatabase.xcdatamodeld in Sources */,
+				4C41F3671CA270F9006B71FD /* StatusMessageView.m in Sources */,
 				4CF6814E1C9A93CE000591DA /* DDUserService.m in Sources */,
 				4CEBB8BF1C9BF11B006E7121 /* UserDAO.m in Sources */,
 				4CE4710C1C9F855100B2836A /* Status.m in Sources */,
