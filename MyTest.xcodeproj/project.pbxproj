@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C41F3631CA22A8D006B71FD /* Animation3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C41F3621CA22A8D006B71FD /* Animation3ViewController.m */; };
 		4C6E9A591C965ECC00692DDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E9A581C965ECC00692DDC /* main.m */; };
 		4C6E9A5C1C965ECC00692DDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E9A5B1C965ECC00692DDC /* AppDelegate.m */; };
 		4C6E9A641C965ECC00692DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E9A631C965ECC00692DDC /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		4CEBB8921C9BD79B006E7121 /* Database2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEBB8911C9BD79B006E7121 /* Database2ViewController.m */; };
 		4CEBB8BC1C9BEBB1006E7121 /* CoreDataDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEBB8BB1C9BEBB1006E7121 /* CoreDataDAO.m */; };
 		4CEBB8BF1C9BF11B006E7121 /* UserDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEBB8BE1C9BF11B006E7121 /* UserDAO.m */; };
+		4CECDABF1CA13D72006F18C5 /* Animation2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CECDABE1CA13D72006F18C5 /* Animation2ViewController.m */; };
 		4CF680ED1C9A3782000591DA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF680EC1C9A3782000591DA /* MainViewController.m */; };
 		4CF681281C9A3A8A000591DA /* Animation1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF681121C9A3A89000591DA /* Animation1ViewController.m */; };
 		4CF6812F1C9A3A8A000591DA /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF681231C9A3A8A000591DA /* BaseModel.m */; };
@@ -39,6 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C41F3611CA22A8D006B71FD /* Animation3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation3ViewController.h; sourceTree = "<group>"; };
+		4C41F3621CA22A8D006B71FD /* Animation3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation3ViewController.m; sourceTree = "<group>"; };
 		4C6E9A541C965ECC00692DDC /* MyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6E9A581C965ECC00692DDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C6E9A5A1C965ECC00692DDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 		4CEBB8BB1C9BEBB1006E7121 /* CoreDataDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataDAO.m; sourceTree = "<group>"; };
 		4CEBB8BD1C9BF11B006E7121 /* UserDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDAO.h; sourceTree = "<group>"; };
 		4CEBB8BE1C9BF11B006E7121 /* UserDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDAO.m; sourceTree = "<group>"; };
+		4CECDABD1CA13D72006F18C5 /* Animation2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation2ViewController.h; sourceTree = "<group>"; };
+		4CECDABE1CA13D72006F18C5 /* Animation2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation2ViewController.m; sourceTree = "<group>"; };
 		4CF680EB1C9A3782000591DA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		4CF680EC1C9A3782000591DA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		4CF681111C9A3A89000591DA /* Animation1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation1ViewController.h; sourceTree = "<group>"; };
@@ -162,6 +168,10 @@
 			children = (
 				4CF681111C9A3A89000591DA /* Animation1ViewController.h */,
 				4CF681121C9A3A89000591DA /* Animation1ViewController.m */,
+				4CECDABD1CA13D72006F18C5 /* Animation2ViewController.h */,
+				4CECDABE1CA13D72006F18C5 /* Animation2ViewController.m */,
+				4C41F3611CA22A8D006B71FD /* Animation3ViewController.h */,
+				4C41F3621CA22A8D006B71FD /* Animation3ViewController.m */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -307,10 +317,12 @@
 			files = (
 				4CEBB8921C9BD79B006E7121 /* Database2ViewController.m in Sources */,
 				4CF681481C9A93CE000591DA /* Database1ViewController.m in Sources */,
+				4CECDABF1CA13D72006F18C5 /* Animation2ViewController.m in Sources */,
 				4CF681371C9A43A4000591DA /* BaseViewController.m in Sources */,
 				4CF6814A1C9A93CE000591DA /* DDDbManager.m in Sources */,
 				4CF6812F1C9A3A8A000591DA /* BaseModel.m in Sources */,
 				4CF681311C9A3A8A000591DA /* PersonInfoModel.m in Sources */,
+				4C41F3631CA22A8D006B71FD /* Animation3ViewController.m in Sources */,
 				4CE471051C9F848500B2836A /* StatusManagedObject+CoreDataProperties.m in Sources */,
 				4CF6814B1C9A93CE000591DA /* DDStatus.m in Sources */,
 				4CE471091C9F853F00B2836A /* User.m in Sources */,
