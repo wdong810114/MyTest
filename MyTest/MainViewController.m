@@ -28,7 +28,10 @@
                              @{@"title" : @"CATransitionAnimation", @"class" : @"Animation3ViewController"},
                              @{@"title" : @"SimpleKVC", @"class" : @"KVC1ViewController"},
                              @{@"title" : @"SqliteDatabase", @"class" : @"Database1ViewController"},
-                             @{@"title" : @"CoreDataDatabase", @"class" : @"Database2ViewController"}];
+                             @{@"title" : @"CoreDataDatabase", @"class" : @"Database2ViewController"},
+                             @{@"title" : @"CoreAnimation1", @"class" : @"CoreAnimation1ViewController"},
+                             @{@"title" : @"CoreAnimation2", @"class" : @"CoreAnimation2ViewController"},
+                             @{@"title" : @"CoreAnimation3", @"class" : @"CoreAnimation3ViewController"}];
     }
     
     return self;
