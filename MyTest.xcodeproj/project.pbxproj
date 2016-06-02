@@ -32,6 +32,7 @@
 		4CEBB8BC1C9BEBB1006E7121 /* CoreDataDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEBB8BB1C9BEBB1006E7121 /* CoreDataDAO.m */; };
 		4CEBB8BF1C9BF11B006E7121 /* UserDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEBB8BE1C9BF11B006E7121 /* UserDAO.m */; };
 		4CECDABF1CA13D72006F18C5 /* Animation2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CECDABE1CA13D72006F18C5 /* Animation2ViewController.m */; };
+		4CEFA3671D0031FF0048E049 /* CoreAnimation5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFA3661D0031FF0048E049 /* CoreAnimation5ViewController.m */; };
 		4CF680ED1C9A3782000591DA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF680EC1C9A3782000591DA /* MainViewController.m */; };
 		4CF681281C9A3A8A000591DA /* Animation1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF681121C9A3A89000591DA /* Animation1ViewController.m */; };
 		4CF6812F1C9A3A8A000591DA /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF681231C9A3A8A000591DA /* BaseModel.m */; };
@@ -98,6 +99,8 @@
 		4CEBB8BE1C9BF11B006E7121 /* UserDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDAO.m; sourceTree = "<group>"; };
 		4CECDABD1CA13D72006F18C5 /* Animation2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation2ViewController.h; sourceTree = "<group>"; };
 		4CECDABE1CA13D72006F18C5 /* Animation2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation2ViewController.m; sourceTree = "<group>"; };
+		4CEFA3651D0031FF0048E049 /* CoreAnimation5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimation5ViewController.h; sourceTree = "<group>"; };
+		4CEFA3661D0031FF0048E049 /* CoreAnimation5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimation5ViewController.m; sourceTree = "<group>"; };
 		4CF680EB1C9A3782000591DA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		4CF680EC1C9A3782000591DA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		4CF681111C9A3A89000591DA /* Animation1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation1ViewController.h; sourceTree = "<group>"; };
@@ -207,6 +210,8 @@
 				4CE661161CF43F70006E624C /* CoreAnimation3ViewController.m */,
 				4CFD12B21CFFDF9800C9A30C /* CoreAnimation4ViewController.h */,
 				4CFD12B31CFFDF9800C9A30C /* CoreAnimation4ViewController.m */,
+				4CEFA3651D0031FF0048E049 /* CoreAnimation5ViewController.h */,
+				4CEFA3661D0031FF0048E049 /* CoreAnimation5ViewController.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -387,6 +392,7 @@
 				4CF681481C9A93CE000591DA /* Database1ViewController.m in Sources */,
 				4CECDABF1CA13D72006F18C5 /* Animation2ViewController.m in Sources */,
 				4CF681371C9A43A4000591DA /* BaseViewController.m in Sources */,
+				4CEFA3671D0031FF0048E049 /* CoreAnimation5ViewController.m in Sources */,
 				4CF6814A1C9A93CE000591DA /* DDDbManager.m in Sources */,
 				4CF6812F1C9A3A8A000591DA /* BaseModel.m in Sources */,
 				4C41F36A1CA2741B006B71FD /* StatusMessageHandle.m in Sources */,

@@ -32,7 +32,8 @@
                              @{@"title" : @"CoreAnimation1", @"class" : @"CoreAnimation1ViewController"},
                              @{@"title" : @"CoreAnimation2", @"class" : @"CoreAnimation2ViewController"},
                              @{@"title" : @"CoreAnimation3", @"class" : @"CoreAnimation3ViewController"},
-                             @{@"title" : @"CoreAnimation4", @"class" : @"CoreAnimation4ViewController"}];
+                             @{@"title" : @"CoreAnimation4", @"class" : @"CoreAnimation4ViewController"},
+                             @{@"title" : @"CoreAnimation5", @"class" : @"CoreAnimation5ViewController"}];
     }
     
     return self;
@@ -96,7 +97,7 @@
 - (UITableView *)tableView
 {
     if(!_tableView) {
-        _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0.0, 0.0, SCREEN_WIDTH, SCREEN_HEIGHT - STATUSBAR_HEIGHT - NAVIGATIONBAR_HEIGHT) style:UITableViewStylePlain];
         _tableView.backgroundColor = [UIColor clearColor];
         _tableView.dataSource = self;
         _tableView.delegate = self;

@@ -27,8 +27,6 @@
 {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor lightGrayColor];
-    
     [self.view addSubview:self.layerView];
     
     CALayer *blueLayer = [CALayer layer];
@@ -55,6 +53,24 @@
     NSLog(@"rect: %@", NSStringFromCGRect(rect));
     rect = [self.view.layer convertRect:blueLayer.frame fromLayer:self.layerView.layer];
     NSLog(@"rect: %@", NSStringFromCGRect(rect));
+    
+    // 测试组透明的图层叠加效果
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(50.0, 300.0, 100.0, 30.0)];
+    button.backgroundColor = [UIColor whiteColor];
+    button.alpha = 0.5;
+    button.layer.cornerRadius = 10.0;
+    button.layer.shouldRasterize = YES;
+    button.layer.rasterizationScale = [UIScreen mainScreen].scale;
+    button.layer.shadowOpacity = 0.5;
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10.0, 5.0, 80.0, 20.0)];
+    label.backgroundColor = [UIColor whiteColor];
+    label.font = [UIFont systemFontOfSize:14.0];
+    label.textColor = [UIColor blackColor];
+    label.textAlignment = NSTextAlignmentCenter;
+    label.text = @"Hello World";
+    label.alpha = 0.5;
+    [button addSubview:label];
+    [self.view addSubview:button];
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event

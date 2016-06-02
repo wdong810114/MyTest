@@ -27,8 +27,6 @@
 {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor lightGrayColor];
-    
     [self.view addSubview:self.clockView];
     
     self.secondHand.layer.anchorPoint = CGPointMake(0.5, 0.8);

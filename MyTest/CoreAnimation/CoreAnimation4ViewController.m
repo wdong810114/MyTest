@@ -25,8 +25,6 @@
 {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor lightGrayColor];
-    
     [self.view addSubview:self.layerView1];
     [self.view addSubview:self.layerView2];
     [self.view addSubview:self.layerView3];
