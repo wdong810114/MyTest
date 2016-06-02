@@ -15,6 +15,7 @@
 		4C6E9A641C965ECC00692DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E9A631C965ECC00692DDC /* Assets.xcassets */; };
 		4C6E9A671C965ECC00692DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E9A651C965ECC00692DDC /* LaunchScreen.storyboard */; };
 		4C6E9A6F1C96619800692DDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6E9A6E1C96619800692DDC /* CoreGraphics.framework */; };
+		4C9D467F1D000D3C0063A6E8 /* digits@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9D467E1D000D3C0063A6E8 /* digits@2x.png */; };
 		4CC12ACA1CF2D1C200F3E057 /* CoreAnimation1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC12AC91CF2D1C200F3E057 /* CoreAnimation1ViewController.m */; };
 		4CC12ACC1CF2D58C00F3E057 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC12ACB1CF2D58C00F3E057 /* QuartzCore.framework */; };
 		4CC12ADB1CF3057600F3E057 /* drinks@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC12ADA1CF3057600F3E057 /* drinks@2x.png */; };
@@ -45,6 +46,8 @@
 		4CF6814D1C9A93CE000591DA /* DDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF681451C9A93CE000591DA /* DDUser.m */; };
 		4CF6814E1C9A93CE000591DA /* DDUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF681471C9A93CE000591DA /* DDUserService.m */; };
 		4CF681521C9A97BD000591DA /* myDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CF681501C9A97BD000591DA /* myDatabase.xcdatamodeld */; };
+		4CFD12B11CFFDF4B00C9A30C /* personal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFD12B01CFFDF4B00C9A30C /* personal@2x.png */; };
+		4CFD12B41CFFDF9800C9A30C /* CoreAnimation4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD12B31CFFDF9800C9A30C /* CoreAnimation4ViewController.m */; };
 		4CFDFE9D1C97DFC300293883 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFDFE9C1C97DFC300293883 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +67,7 @@
 		4C6E9A661C965ECC00692DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C6E9A681C965ECC00692DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C6E9A6E1C96619800692DDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C9D467E1D000D3C0063A6E8 /* digits@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "digits@2x.png"; sourceTree = "<group>"; };
 		4CC12AC81CF2D1C200F3E057 /* CoreAnimation1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimation1ViewController.h; sourceTree = "<group>"; };
 		4CC12AC91CF2D1C200F3E057 /* CoreAnimation1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimation1ViewController.m; sourceTree = "<group>"; };
 		4CC12ACB1CF2D58C00F3E057 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -122,6 +126,9 @@
 		4CF681461C9A93CE000591DA /* DDUserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDUserService.h; sourceTree = "<group>"; };
 		4CF681471C9A93CE000591DA /* DDUserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDUserService.m; sourceTree = "<group>"; };
 		4CF681511C9A97BD000591DA /* myDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myDatabase.xcdatamodel; sourceTree = "<group>"; };
+		4CFD12B01CFFDF4B00C9A30C /* personal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "personal@2x.png"; sourceTree = "<group>"; };
+		4CFD12B21CFFDF9800C9A30C /* CoreAnimation4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimation4ViewController.h; sourceTree = "<group>"; };
+		4CFD12B31CFFDF9800C9A30C /* CoreAnimation4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimation4ViewController.m; sourceTree = "<group>"; };
 		4CFDFE9C1C97DFC300293883 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -198,6 +205,8 @@
 				4CE661131CF40594006E624C /* CoreAnimation2ViewController.m */,
 				4CE661151CF43F70006E624C /* CoreAnimation3ViewController.h */,
 				4CE661161CF43F70006E624C /* CoreAnimation3ViewController.m */,
+				4CFD12B21CFFDF9800C9A30C /* CoreAnimation4ViewController.h */,
+				4CFD12B31CFFDF9800C9A30C /* CoreAnimation4ViewController.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -205,6 +214,8 @@
 		4CC12ACD1CF2F11200F3E057 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				4C9D467E1D000D3C0063A6E8 /* digits@2x.png */,
+				4CFD12B01CFFDF4B00C9A30C /* personal@2x.png */,
 				4CC12ADA1CF3057600F3E057 /* drinks@2x.png */,
 				4CE661101CF3F533006E624C /* points@2x.png */,
 			);
@@ -356,9 +367,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CFD12B11CFFDF4B00C9A30C /* personal@2x.png in Resources */,
 				4C6E9A671C965ECC00692DDC /* LaunchScreen.storyboard in Resources */,
 				4C6E9A641C965ECC00692DDC /* Assets.xcassets in Resources */,
 				4CC12ADB1CF3057600F3E057 /* drinks@2x.png in Resources */,
+				4C9D467F1D000D3C0063A6E8 /* digits@2x.png in Resources */,
 				4CE661111CF3F533006E624C /* points@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,6 +390,7 @@
 				4CF6814A1C9A93CE000591DA /* DDDbManager.m in Sources */,
 				4CF6812F1C9A3A8A000591DA /* BaseModel.m in Sources */,
 				4C41F36A1CA2741B006B71FD /* StatusMessageHandle.m in Sources */,
+				4CFD12B41CFFDF9800C9A30C /* CoreAnimation4ViewController.m in Sources */,
 				4CE661141CF40594006E624C /* CoreAnimation2ViewController.m in Sources */,
 				4CF681311C9A3A8A000591DA /* PersonInfoModel.m in Sources */,
 				4C41F3631CA22A8D006B71FD /* Animation3ViewController.m in Sources */,

@@ -11,10 +11,12 @@
 @interface CoreAnimation3ViewController ()
 
 @property (nonatomic, strong) UIView *clockView;
-
 @property (nonatomic, strong) UIView *hourHand;
 @property (nonatomic, strong) UIView *minuteHand;
 @property (nonatomic, strong) UIView *secondHand;
+
+@property (nonatomic, strong) NSMutableArray *digitViews;
+
 @property (nonatomic, strong) NSTimer *timer;
 
 @end
@@ -32,9 +34,32 @@
     self.secondHand.layer.anchorPoint = CGPointMake(0.5, 0.8);
     self.minuteHand.layer.anchorPoint = CGPointMake(0.5, 0.8);
     self.hourHand.layer.anchorPoint = CGPointMake(0.5, 0.8);
+    
+    UIView *digitClockView = [[UIView alloc] initWithFrame:CGRectMake((SCREEN_WIDTH - 25.0 * 6) / 2, 250.0, 25.0 * 6, 35.0)];
+    digitClockView.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:digitClockView];
+    
+    self.digitViews = [NSMutableArray arrayWithCapacity:6];
+    UIImage *digits = [UIImage imageNamed:@"digits"];
+    for(NSInteger i = 0; i < 6; i++) {
+        UIView *digitView = [[UIView alloc] initWithFrame:CGRectMake(25.0 * i, 0.0, 25.0, 35.0)];
+        digitView.backgroundColor = [UIColor clearColor];
+        digitView.layer.contents = (__bridge id)digits.CGImage;
+        digitView.layer.contentsRect = CGRectMake(0.0, 0.0, 0.1, 1.0);
+        digitView.layer.contentsGravity = kCAGravityResizeAspect;
+        // 线性过滤保留了形状，最近过滤则保留了像素的差异
+        digitView.layer.magnificationFilter = kCAFilterNearest;
+        [self.digitViews addObject:digitView];
+        [digitClockView addSubview:digitView];
+    }
 
     self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(tick) userInfo:nil repeats:YES];
     [self tick];
+}
+
+- (void)setDigit:(NSInteger)digit forView:(UIView *)view
+{
+    view.layer.contentsRect = CGRectMake(digit * 0.1, 0.0, 0.1, 1.0);
 }
 
 - (void)tick
@@ -49,12 +74,19 @@
     self.hourHand.transform = CGAffineTransformMakeRotation(hoursAngle);
     self.minuteHand.transform = CGAffineTransformMakeRotation(minsAngle);
     self.secondHand.transform = CGAffineTransformMakeRotation(secsAngle);
+    
+    [self setDigit:components.hour / 10 forView:self.digitViews[0]];
+    [self setDigit:components.hour % 10 forView:self.digitViews[1]];
+    [self setDigit:components.minute / 10 forView:self.digitViews[2]];
+    [self setDigit:components.minute % 10 forView:self.digitViews[3]];
+    [self setDigit:components.second / 10 forView:self.digitViews[4]];
+    [self setDigit:components.second % 10 forView:self.digitViews[5]];
 }
 
 - (UIView *)clockView
 {
     if(!_clockView) {
-        _clockView = [[UIView alloc] initWithFrame:CGRectMake((SCREEN_WIDTH - 150.0) / 2, (SCREEN_HEIGHT - STATUSBAR_HEIGHT - NAVIGATIONBAR_HEIGHT - 150.0) / 2, 150.0, 150.0)];
+        _clockView = [[UIView alloc] initWithFrame:CGRectMake((SCREEN_WIDTH - 150.0) / 2, 80.0, 150.0, 150.0)];
         _clockView.backgroundColor = [UIColor whiteColor];
         
         UILabel *threeLabel = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetWidth(_clockView.bounds) - 30.0, (CGRectGetHeight(_clockView.bounds) - 14.0) / 2, 30.0, 14.0)];

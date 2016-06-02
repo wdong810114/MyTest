@@ -31,7 +31,8 @@
                              @{@"title" : @"CoreDataDatabase", @"class" : @"Database2ViewController"},
                              @{@"title" : @"CoreAnimation1", @"class" : @"CoreAnimation1ViewController"},
                              @{@"title" : @"CoreAnimation2", @"class" : @"CoreAnimation2ViewController"},
-                             @{@"title" : @"CoreAnimation3", @"class" : @"CoreAnimation3ViewController"}];
+                             @{@"title" : @"CoreAnimation3", @"class" : @"CoreAnimation3ViewController"},
+                             @{@"title" : @"CoreAnimation4", @"class" : @"CoreAnimation4ViewController"}];
     }
     
     return self;
