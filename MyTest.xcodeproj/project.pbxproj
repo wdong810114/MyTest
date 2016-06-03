@@ -47,6 +47,8 @@
 		4CF6814D1C9A93CE000591DA /* DDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF681451C9A93CE000591DA /* DDUser.m */; };
 		4CF6814E1C9A93CE000591DA /* DDUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF681471C9A93CE000591DA /* DDUserService.m */; };
 		4CF681521C9A97BD000591DA /* myDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CF681501C9A97BD000591DA /* myDatabase.xcdatamodeld */; };
+		4CFBF95A1D01555C007541AA /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFBF9591D01555C007541AA /* GLKit.framework */; };
+		4CFBF95D1D0165C7007541AA /* CoreAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFBF95C1D0165C7007541AA /* CoreAnimationViewController.m */; };
 		4CFD12B11CFFDF4B00C9A30C /* personal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFD12B01CFFDF4B00C9A30C /* personal@2x.png */; };
 		4CFD12B41CFFDF9800C9A30C /* CoreAnimation4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD12B31CFFDF9800C9A30C /* CoreAnimation4ViewController.m */; };
 		4CFDFE9D1C97DFC300293883 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFDFE9C1C97DFC300293883 /* libsqlite3.tbd */; };
@@ -129,6 +131,9 @@
 		4CF681461C9A93CE000591DA /* DDUserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDUserService.h; sourceTree = "<group>"; };
 		4CF681471C9A93CE000591DA /* DDUserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDUserService.m; sourceTree = "<group>"; };
 		4CF681511C9A97BD000591DA /* myDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myDatabase.xcdatamodel; sourceTree = "<group>"; };
+		4CFBF9591D01555C007541AA /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		4CFBF95B1D0165C7007541AA /* CoreAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationViewController.h; sourceTree = "<group>"; };
+		4CFBF95C1D0165C7007541AA /* CoreAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationViewController.m; sourceTree = "<group>"; };
 		4CFD12B01CFFDF4B00C9A30C /* personal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "personal@2x.png"; sourceTree = "<group>"; };
 		4CFD12B21CFFDF9800C9A30C /* CoreAnimation4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimation4ViewController.h; sourceTree = "<group>"; };
 		4CFD12B31CFFDF9800C9A30C /* CoreAnimation4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimation4ViewController.m; sourceTree = "<group>"; };
@@ -140,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CFBF95A1D01555C007541AA /* GLKit.framework in Frameworks */,
 				4CFDFE9D1C97DFC300293883 /* libsqlite3.tbd in Frameworks */,
 				4C6E9A6F1C96619800692DDC /* CoreGraphics.framework in Frameworks */,
 				4CC12ACC1CF2D58C00F3E057 /* QuartzCore.framework in Frameworks */,
@@ -152,6 +158,7 @@
 		4C6E9A4B1C965ECC00692DDC = {
 			isa = PBXGroup;
 			children = (
+				4CFBF9591D01555C007541AA /* GLKit.framework */,
 				4CFDFE9C1C97DFC300293883 /* libsqlite3.tbd */,
 				4C6E9A6E1C96619800692DDC /* CoreGraphics.framework */,
 				4CC12ACB1CF2D58C00F3E057 /* QuartzCore.framework */,
@@ -202,6 +209,8 @@
 		4CC12AC71CF2D1A400F3E057 /* CoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				4CFBF95B1D0165C7007541AA /* CoreAnimationViewController.h */,
+				4CFBF95C1D0165C7007541AA /* CoreAnimationViewController.m */,
 				4CC12AC81CF2D1C200F3E057 /* CoreAnimation1ViewController.h */,
 				4CC12AC91CF2D1C200F3E057 /* CoreAnimation1ViewController.m */,
 				4CE661121CF40594006E624C /* CoreAnimation2ViewController.h */,
@@ -415,6 +424,7 @@
 				4CF6814E1C9A93CE000591DA /* DDUserService.m in Sources */,
 				4CEBB8BF1C9BF11B006E7121 /* UserDAO.m in Sources */,
 				4CC12ACA1CF2D1C200F3E057 /* CoreAnimation1ViewController.m in Sources */,
+				4CFBF95D1D0165C7007541AA /* CoreAnimationViewController.m in Sources */,
 				4CE4710C1C9F855100B2836A /* Status.m in Sources */,
 				4CF6814D1C9A93CE000591DA /* DDUser.m in Sources */,
 				4CE471041C9F848500B2836A /* UserManagedObject.m in Sources */,

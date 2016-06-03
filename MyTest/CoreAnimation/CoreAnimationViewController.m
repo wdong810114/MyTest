@@ -1,20 +1,20 @@
 //
-//  MainViewController.m
-//  Test001
+//  CoreAnimationViewController.m
+//  MyTest
 //
-//  Created by wangdongdong on 16/3/17.
+//  Created by wangdongdong on 16/6/3.
 //  Copyright © 2016年 Spark. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "CoreAnimationViewController.h"
 
-@interface MainViewController () <UITableViewDataSource, UITableViewDelegate>
+@interface CoreAnimationViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @property (strong, nonatomic) UITableView   *tableView;
 
 @end
 
-@implementation MainViewController
+@implementation CoreAnimationViewController
 {
     NSArray *_viewControllers;
 }
@@ -23,13 +23,11 @@
 {
     self = [super init];
     if(self) {
-        _viewControllers = @[@{@"title" : @"CAKeyframeAnimation", @"class" : @"Animation1ViewController"},
-                             @{@"title" : @"UIViewAnimation", @"class" : @"Animation2ViewController"},
-                             @{@"title" : @"CATransitionAnimation", @"class" : @"Animation3ViewController"},
-                             @{@"title" : @"SimpleKVC", @"class" : @"KVC1ViewController"},
-                             @{@"title" : @"SqliteDatabase", @"class" : @"Database1ViewController"},
-                             @{@"title" : @"CoreDataDatabase", @"class" : @"Database2ViewController"},
-                             @{@"title" : @"CoreAnimation", @"class" : @"CoreAnimationViewController"}];
+        _viewControllers = @[@{@"title" : @"CoreAnimation1", @"class" : @"CoreAnimation1ViewController"},
+                             @{@"title" : @"CoreAnimation2", @"class" : @"CoreAnimation2ViewController"},
+                             @{@"title" : @"CoreAnimation3", @"class" : @"CoreAnimation3ViewController"},
+                             @{@"title" : @"CoreAnimation4", @"class" : @"CoreAnimation4ViewController"},
+                             @{@"title" : @"CoreAnimation5", @"class" : @"CoreAnimation5ViewController"}];
     }
     
     return self;
@@ -38,8 +36,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    self.navigationItem.title = @"Demo";
     
     [self.view addSubview:self.tableView];
 }
@@ -58,7 +54,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"CellIdentifier";
-            
+    
     UITableViewCell *cell = (UITableViewCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if(!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
@@ -69,7 +65,7 @@
     }
     
     cell.textLabel.text = _viewControllers[indexPath.row][@"title"];
-
+    
     return cell;
 }
 

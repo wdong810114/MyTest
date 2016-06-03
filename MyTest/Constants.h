@@ -11,3 +11,5 @@
 #define SCREEN_HEIGHT           SCREEN_SIZE.height                      // 屏幕高度
 #define STATUSBAR_HEIGHT        20.0    // 状态栏高度
 #define NAVIGATIONBAR_HEIGHT    44.0    // 导航栏高度
+
+#define RADIANS_TO_DEGREES(x)   ((x)/M_PI*180.0)
