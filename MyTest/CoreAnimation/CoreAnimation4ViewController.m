@@ -57,7 +57,8 @@
         _layerView1.layer.shadowOpacity = 0.5;
         CGMutablePathRef squarePath = CGPathCreateMutable();
         CGPathAddRect(squarePath, NULL, _layerView1.bounds);
-        _layerView1.layer.shadowPath = squarePath; CGPathRelease(squarePath);
+        _layerView1.layer.shadowPath = squarePath;
+        CGPathRelease(squarePath);
     }
     
     return _layerView1;
@@ -78,7 +79,8 @@
         _layerView2.layer.shadowOpacity = 0.5;
         CGMutablePathRef circlePath = CGPathCreateMutable();
         CGPathAddEllipseInRect(circlePath, NULL, _layerView2.bounds);
-        _layerView2.layer.shadowPath = circlePath; CGPathRelease(circlePath);
+        _layerView2.layer.shadowPath = circlePath;
+        CGPathRelease(circlePath);
     }
     
     return _layerView2;

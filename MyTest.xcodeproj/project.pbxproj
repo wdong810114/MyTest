@@ -10,11 +10,22 @@
 		4C41F3631CA22A8D006B71FD /* Animation3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C41F3621CA22A8D006B71FD /* Animation3ViewController.m */; };
 		4C41F3671CA270F9006B71FD /* StatusMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C41F3661CA270F9006B71FD /* StatusMessageView.m */; };
 		4C41F36A1CA2741B006B71FD /* StatusMessageHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C41F3691CA2741B006B71FD /* StatusMessageHandle.m */; };
+		4C6874DD1D0659CB00D2FD6E /* SpecialLayer4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6874DC1D0659CB00D2FD6E /* SpecialLayer4ViewController.m */; };
+		4C6874DF1D065A5900D2FD6E /* movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4C6874DE1D065A5900D2FD6E /* movie.mp4 */; };
+		4C6874E11D065A8600D2FD6E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6874E01D065A8600D2FD6E /* AVFoundation.framework */; };
+		4C6874E71D065F9D00D2FD6E /* ImplicitAnimation1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6874E61D065F9D00D2FD6E /* ImplicitAnimation1ViewController.m */; };
+		4C6874EA1D06B02100D2FD6E /* ImplicitAnimation2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6874E91D06B02100D2FD6E /* ImplicitAnimation2ViewController.m */; };
 		4C6E9A591C965ECC00692DDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E9A581C965ECC00692DDC /* main.m */; };
 		4C6E9A5C1C965ECC00692DDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E9A5B1C965ECC00692DDC /* AppDelegate.m */; };
 		4C6E9A641C965ECC00692DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E9A631C965ECC00692DDC /* Assets.xcassets */; };
 		4C6E9A671C965ECC00692DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E9A651C965ECC00692DDC /* LaunchScreen.storyboard */; };
 		4C6E9A6F1C96619800692DDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6E9A6E1C96619800692DDC /* CoreGraphics.framework */; };
+		4C871ECE1D051BF800CED472 /* SpecialLayer2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C871ECD1D051BF800CED472 /* SpecialLayer2ViewController.m */; };
+		4C871ED11D0541CA00CED472 /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C871ED01D0541CA00CED472 /* ReflectionView.m */; };
+		4C871ED31D054AF100CED472 /* forest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C871ED21D054AF100CED472 /* forest.jpg */; };
+		4C871ED61D0553C800CED472 /* ScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C871ED51D0553C800CED472 /* ScrollView.m */; };
+		4C871ED91D0553F300CED472 /* SpecialLayer3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C871ED81D0553F300CED472 /* SpecialLayer3ViewController.m */; };
+		4C871EDB1D056E8C00CED472 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C871EDA1D056E8C00CED472 /* star@2x.png */; };
 		4C9D467F1D000D3C0063A6E8 /* digits@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9D467E1D000D3C0063A6E8 /* digits@2x.png */; };
 		4CC12ACA1CF2D1C200F3E057 /* CoreAnimation1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC12AC91CF2D1C200F3E057 /* CoreAnimation1ViewController.m */; };
 		4CC12ACC1CF2D58C00F3E057 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC12ACB1CF2D58C00F3E057 /* QuartzCore.framework */; };
@@ -49,6 +60,9 @@
 		4CF681521C9A97BD000591DA /* myDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CF681501C9A97BD000591DA /* myDatabase.xcdatamodeld */; };
 		4CFBF95A1D01555C007541AA /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFBF9591D01555C007541AA /* GLKit.framework */; };
 		4CFBF95D1D0165C7007541AA /* CoreAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFBF95C1D0165C7007541AA /* CoreAnimationViewController.m */; };
+		4CFBF9631D0168D2007541AA /* SpecialLayer1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFBF9621D0168D2007541AA /* SpecialLayer1ViewController.m */; };
+		4CFBF9651D017EBB007541AA /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFBF9641D017EBB007541AA /* CoreText.framework */; };
+		4CFBF9681D018245007541AA /* LayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFBF9671D018245007541AA /* LayerLabel.m */; };
 		4CFD12B11CFFDF4B00C9A30C /* personal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFD12B01CFFDF4B00C9A30C /* personal@2x.png */; };
 		4CFD12B41CFFDF9800C9A30C /* CoreAnimation4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD12B31CFFDF9800C9A30C /* CoreAnimation4ViewController.m */; };
 		4CFDFE9D1C97DFC300293883 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFDFE9C1C97DFC300293883 /* libsqlite3.tbd */; };
@@ -62,6 +76,14 @@
 		4C41F3661CA270F9006B71FD /* StatusMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusMessageView.m; sourceTree = "<group>"; };
 		4C41F3681CA2741B006B71FD /* StatusMessageHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusMessageHandle.h; sourceTree = "<group>"; };
 		4C41F3691CA2741B006B71FD /* StatusMessageHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusMessageHandle.m; sourceTree = "<group>"; };
+		4C6874DB1D0659CB00D2FD6E /* SpecialLayer4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialLayer4ViewController.h; sourceTree = "<group>"; };
+		4C6874DC1D0659CB00D2FD6E /* SpecialLayer4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialLayer4ViewController.m; sourceTree = "<group>"; };
+		4C6874DE1D065A5900D2FD6E /* movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie.mp4; sourceTree = "<group>"; };
+		4C6874E01D065A8600D2FD6E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4C6874E51D065F9D00D2FD6E /* ImplicitAnimation1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImplicitAnimation1ViewController.h; sourceTree = "<group>"; };
+		4C6874E61D065F9D00D2FD6E /* ImplicitAnimation1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImplicitAnimation1ViewController.m; sourceTree = "<group>"; };
+		4C6874E81D06B02100D2FD6E /* ImplicitAnimation2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImplicitAnimation2ViewController.h; sourceTree = "<group>"; };
+		4C6874E91D06B02100D2FD6E /* ImplicitAnimation2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImplicitAnimation2ViewController.m; sourceTree = "<group>"; };
 		4C6E9A541C965ECC00692DDC /* MyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6E9A581C965ECC00692DDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C6E9A5A1C965ECC00692DDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,6 +92,16 @@
 		4C6E9A661C965ECC00692DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C6E9A681C965ECC00692DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C6E9A6E1C96619800692DDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C871ECC1D051BF800CED472 /* SpecialLayer2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialLayer2ViewController.h; sourceTree = "<group>"; };
+		4C871ECD1D051BF800CED472 /* SpecialLayer2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialLayer2ViewController.m; sourceTree = "<group>"; };
+		4C871ECF1D0541CA00CED472 /* ReflectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectionView.h; sourceTree = "<group>"; };
+		4C871ED01D0541CA00CED472 /* ReflectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReflectionView.m; sourceTree = "<group>"; };
+		4C871ED21D054AF100CED472 /* forest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = forest.jpg; sourceTree = "<group>"; };
+		4C871ED41D0553C800CED472 /* ScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollView.h; sourceTree = "<group>"; };
+		4C871ED51D0553C800CED472 /* ScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollView.m; sourceTree = "<group>"; };
+		4C871ED71D0553F300CED472 /* SpecialLayer3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialLayer3ViewController.h; sourceTree = "<group>"; };
+		4C871ED81D0553F300CED472 /* SpecialLayer3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialLayer3ViewController.m; sourceTree = "<group>"; };
+		4C871EDA1D056E8C00CED472 /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
 		4C9D467E1D000D3C0063A6E8 /* digits@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "digits@2x.png"; sourceTree = "<group>"; };
 		4CC12AC81CF2D1C200F3E057 /* CoreAnimation1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimation1ViewController.h; sourceTree = "<group>"; };
 		4CC12AC91CF2D1C200F3E057 /* CoreAnimation1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimation1ViewController.m; sourceTree = "<group>"; };
@@ -134,6 +166,11 @@
 		4CFBF9591D01555C007541AA /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		4CFBF95B1D0165C7007541AA /* CoreAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationViewController.h; sourceTree = "<group>"; };
 		4CFBF95C1D0165C7007541AA /* CoreAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationViewController.m; sourceTree = "<group>"; };
+		4CFBF9611D0168D2007541AA /* SpecialLayer1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialLayer1ViewController.h; sourceTree = "<group>"; };
+		4CFBF9621D0168D2007541AA /* SpecialLayer1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialLayer1ViewController.m; sourceTree = "<group>"; };
+		4CFBF9641D017EBB007541AA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		4CFBF9661D018245007541AA /* LayerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerLabel.h; sourceTree = "<group>"; };
+		4CFBF9671D018245007541AA /* LayerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerLabel.m; sourceTree = "<group>"; };
 		4CFD12B01CFFDF4B00C9A30C /* personal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "personal@2x.png"; sourceTree = "<group>"; };
 		4CFD12B21CFFDF9800C9A30C /* CoreAnimation4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimation4ViewController.h; sourceTree = "<group>"; };
 		4CFD12B31CFFDF9800C9A30C /* CoreAnimation4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimation4ViewController.m; sourceTree = "<group>"; };
@@ -145,6 +182,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C6874E11D065A8600D2FD6E /* AVFoundation.framework in Frameworks */,
+				4CFBF9651D017EBB007541AA /* CoreText.framework in Frameworks */,
 				4CFBF95A1D01555C007541AA /* GLKit.framework in Frameworks */,
 				4CFDFE9D1C97DFC300293883 /* libsqlite3.tbd in Frameworks */,
 				4C6E9A6F1C96619800692DDC /* CoreGraphics.framework in Frameworks */,
@@ -158,6 +197,8 @@
 		4C6E9A4B1C965ECC00692DDC = {
 			isa = PBXGroup;
 			children = (
+				4C6874E01D065A8600D2FD6E /* AVFoundation.framework */,
+				4CFBF9641D017EBB007541AA /* CoreText.framework */,
 				4CFBF9591D01555C007541AA /* GLKit.framework */,
 				4CFDFE9C1C97DFC300293883 /* libsqlite3.tbd */,
 				4C6E9A6E1C96619800692DDC /* CoreGraphics.framework */,
@@ -221,6 +262,24 @@
 				4CFD12B31CFFDF9800C9A30C /* CoreAnimation4ViewController.m */,
 				4CEFA3651D0031FF0048E049 /* CoreAnimation5ViewController.h */,
 				4CEFA3661D0031FF0048E049 /* CoreAnimation5ViewController.m */,
+				4CFBF9611D0168D2007541AA /* SpecialLayer1ViewController.h */,
+				4CFBF9621D0168D2007541AA /* SpecialLayer1ViewController.m */,
+				4CFBF9661D018245007541AA /* LayerLabel.h */,
+				4CFBF9671D018245007541AA /* LayerLabel.m */,
+				4C871ECC1D051BF800CED472 /* SpecialLayer2ViewController.h */,
+				4C871ECD1D051BF800CED472 /* SpecialLayer2ViewController.m */,
+				4C871ECF1D0541CA00CED472 /* ReflectionView.h */,
+				4C871ED01D0541CA00CED472 /* ReflectionView.m */,
+				4C871ED71D0553F300CED472 /* SpecialLayer3ViewController.h */,
+				4C871ED81D0553F300CED472 /* SpecialLayer3ViewController.m */,
+				4C871ED41D0553C800CED472 /* ScrollView.h */,
+				4C871ED51D0553C800CED472 /* ScrollView.m */,
+				4C6874DB1D0659CB00D2FD6E /* SpecialLayer4ViewController.h */,
+				4C6874DC1D0659CB00D2FD6E /* SpecialLayer4ViewController.m */,
+				4C6874E51D065F9D00D2FD6E /* ImplicitAnimation1ViewController.h */,
+				4C6874E61D065F9D00D2FD6E /* ImplicitAnimation1ViewController.m */,
+				4C6874E81D06B02100D2FD6E /* ImplicitAnimation2ViewController.h */,
+				4C6874E91D06B02100D2FD6E /* ImplicitAnimation2ViewController.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -228,6 +287,9 @@
 		4CC12ACD1CF2F11200F3E057 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				4C6874DE1D065A5900D2FD6E /* movie.mp4 */,
+				4C871EDA1D056E8C00CED472 /* star@2x.png */,
+				4C871ED21D054AF100CED472 /* forest.jpg */,
 				4C9D467E1D000D3C0063A6E8 /* digits@2x.png */,
 				4CFD12B01CFFDF4B00C9A30C /* personal@2x.png */,
 				4CC12ADA1CF3057600F3E057 /* drinks@2x.png */,
@@ -381,7 +443,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C871ED31D054AF100CED472 /* forest.jpg in Resources */,
 				4CFD12B11CFFDF4B00C9A30C /* personal@2x.png in Resources */,
+				4C6874DF1D065A5900D2FD6E /* movie.mp4 in Resources */,
+				4C871EDB1D056E8C00CED472 /* star@2x.png in Resources */,
 				4C6E9A671C965ECC00692DDC /* LaunchScreen.storyboard in Resources */,
 				4C6E9A641C965ECC00692DDC /* Assets.xcassets in Resources */,
 				4CC12ADB1CF3057600F3E057 /* drinks@2x.png in Resources */,
@@ -400,25 +465,34 @@
 				4CEBB8921C9BD79B006E7121 /* Database2ViewController.m in Sources */,
 				4CF681481C9A93CE000591DA /* Database1ViewController.m in Sources */,
 				4CECDABF1CA13D72006F18C5 /* Animation2ViewController.m in Sources */,
+				4C871ECE1D051BF800CED472 /* SpecialLayer2ViewController.m in Sources */,
 				4CF681371C9A43A4000591DA /* BaseViewController.m in Sources */,
 				4CEFA3671D0031FF0048E049 /* CoreAnimation5ViewController.m in Sources */,
 				4CF6814A1C9A93CE000591DA /* DDDbManager.m in Sources */,
+				4C6874E71D065F9D00D2FD6E /* ImplicitAnimation1ViewController.m in Sources */,
 				4CF6812F1C9A3A8A000591DA /* BaseModel.m in Sources */,
 				4C41F36A1CA2741B006B71FD /* StatusMessageHandle.m in Sources */,
+				4C871ED61D0553C800CED472 /* ScrollView.m in Sources */,
 				4CFD12B41CFFDF9800C9A30C /* CoreAnimation4ViewController.m in Sources */,
 				4CE661141CF40594006E624C /* CoreAnimation2ViewController.m in Sources */,
+				4C6874EA1D06B02100D2FD6E /* ImplicitAnimation2ViewController.m in Sources */,
+				4C871ED11D0541CA00CED472 /* ReflectionView.m in Sources */,
+				4C871ED91D0553F300CED472 /* SpecialLayer3ViewController.m in Sources */,
 				4CF681311C9A3A8A000591DA /* PersonInfoModel.m in Sources */,
 				4C41F3631CA22A8D006B71FD /* Animation3ViewController.m in Sources */,
 				4CE471051C9F848500B2836A /* StatusManagedObject+CoreDataProperties.m in Sources */,
 				4CF6814B1C9A93CE000591DA /* DDStatus.m in Sources */,
 				4CE471091C9F853F00B2836A /* User.m in Sources */,
+				4C6874DD1D0659CB00D2FD6E /* SpecialLayer4ViewController.m in Sources */,
 				4C6E9A5C1C965ECC00692DDC /* AppDelegate.m in Sources */,
 				4CF681281C9A3A8A000591DA /* Animation1ViewController.m in Sources */,
 				4CF680ED1C9A3782000591DA /* MainViewController.m in Sources */,
+				4CFBF9631D0168D2007541AA /* SpecialLayer1ViewController.m in Sources */,
 				4CEBB8BC1C9BEBB1006E7121 /* CoreDataDAO.m in Sources */,
 				4CE471031C9F848500B2836A /* UserManagedObject+CoreDataProperties.m in Sources */,
 				4C6E9A591C965ECC00692DDC /* main.m in Sources */,
 				4CF681521C9A97BD000591DA /* myDatabase.xcdatamodeld in Sources */,
+				4CFBF9681D018245007541AA /* LayerLabel.m in Sources */,
 				4CE661171CF43F70006E624C /* CoreAnimation3ViewController.m in Sources */,
 				4C41F3671CA270F9006B71FD /* StatusMessageView.m in Sources */,
 				4CF6814E1C9A93CE000591DA /* DDUserService.m in Sources */,

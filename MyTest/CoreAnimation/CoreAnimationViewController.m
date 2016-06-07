@@ -27,7 +27,13 @@
                              @{@"title" : @"CoreAnimation2", @"class" : @"CoreAnimation2ViewController"},
                              @{@"title" : @"CoreAnimation3", @"class" : @"CoreAnimation3ViewController"},
                              @{@"title" : @"CoreAnimation4", @"class" : @"CoreAnimation4ViewController"},
-                             @{@"title" : @"CoreAnimation5", @"class" : @"CoreAnimation5ViewController"}];
+                             @{@"title" : @"CoreAnimation5", @"class" : @"CoreAnimation5ViewController"},
+                             @{@"title" : @"SpecialLayer1", @"class" : @"SpecialLayer1ViewController"},
+                             @{@"title" : @"SpecialLayer2", @"class" : @"SpecialLayer2ViewController"},
+                             @{@"title" : @"SpecialLayer3", @"class" : @"SpecialLayer3ViewController"},
+                             @{@"title" : @"SpecialLayer4", @"class" : @"SpecialLayer4ViewController"},
+                             @{@"title" : @"ImplicitAnimation1", @"class" : @"ImplicitAnimation1ViewController"},
+                             @{@"title" : @"ImplicitAnimation2", @"class" : @"ImplicitAnimation2ViewController"}];
     }
     
     return self;
