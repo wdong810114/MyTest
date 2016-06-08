@@ -18,6 +18,11 @@
 
 @implementation ImplicitAnimation1ViewController
 
+- (void)dealloc
+{
+    self.colorLayer.delegate = nil;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

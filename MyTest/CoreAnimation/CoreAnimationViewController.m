@@ -33,7 +33,8 @@
                              @{@"title" : @"SpecialLayer3", @"class" : @"SpecialLayer3ViewController"},
                              @{@"title" : @"SpecialLayer4", @"class" : @"SpecialLayer4ViewController"},
                              @{@"title" : @"ImplicitAnimation1", @"class" : @"ImplicitAnimation1ViewController"},
-                             @{@"title" : @"ImplicitAnimation2", @"class" : @"ImplicitAnimation2ViewController"}];
+                             @{@"title" : @"ImplicitAnimation2", @"class" : @"ImplicitAnimation2ViewController"},
+                             @{@"title" : @"ExplicitAnimation1", @"class" : @"ExplicitAnimation1ViewController"}];
     }
     
     return self;

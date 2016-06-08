@@ -53,6 +53,8 @@
 
     self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(tick) userInfo:nil repeats:YES];
     [self tick];
+    
+    [self updateHandsAnimated:NO];
 }
 
 - (void)setDigit:(NSInteger)digit forView:(UIView *)view
@@ -62,16 +64,21 @@
 
 - (void)tick
 {
-    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
-    NSUInteger units = NSCalendarUnitHour | kCFCalendarUnitMinute | NSCalendarUnitSecond;
-    NSDateComponents *components = [calendar components:units fromDate:[NSDate date]];
-    CGFloat hoursAngle = (components.hour / 12.0) * M_PI * 2.0;
-    CGFloat minsAngle = (components.minute / 60.0) * M_PI * 2.0;
-    CGFloat secsAngle = (components.second / 60.0) * M_PI * 2.0;
+    [self updateHandsAnimated:YES];
+}
 
-    self.hourHand.transform = CGAffineTransformMakeRotation(hoursAngle);
-    self.minuteHand.transform = CGAffineTransformMakeRotation(minsAngle);
-    self.secondHand.transform = CGAffineTransformMakeRotation(secsAngle);
+- (void)updateHandsAnimated:(BOOL)animated
+{
+    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
+    NSUInteger units = NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond;
+    NSDateComponents *components = [calendar components:units fromDate:[NSDate date]];
+    CGFloat hourAngle = (components.hour / 12.0) * M_PI * 2.0;
+    CGFloat minuteAngle = (components.minute / 60.0) * M_PI * 2.0;
+    CGFloat secondAngle = (components.second / 60.0) * M_PI * 2.0;
+
+    [self setAngle:hourAngle forHand:self.hourHand animated:animated];
+    [self setAngle:minuteAngle forHand:self.minuteHand animated:animated];
+    [self setAngle:secondAngle forHand:self.secondHand animated:animated];
     
     [self setDigit:components.hour / 10 forView:self.digitViews[0]];
     [self setDigit:components.hour % 10 forView:self.digitViews[1]];
@@ -79,6 +86,32 @@
     [self setDigit:components.minute % 10 forView:self.digitViews[3]];
     [self setDigit:components.second / 10 forView:self.digitViews[4]];
     [self setDigit:components.second % 10 forView:self.digitViews[5]];
+}
+
+- (void)setAngle:(CGFloat)angle forHand:(UIView *)handView animated:(BOOL)animated
+{
+//    CGAffineTransform affineTransform = CGAffineTransformMakeRotation(angle);
+//    handView.transform = affineTransform;
+    
+    CATransform3D transform = CATransform3DMakeRotation(angle, 0, 0, 1);
+    if(animated) {
+        CABasicAnimation *animation = [CABasicAnimation animation];
+        [self updateHandsAnimated:NO];
+        animation.keyPath = @"transform";
+        animation.toValue = [NSValue valueWithCATransform3D:transform];
+        animation.duration = 0.5;
+        animation.delegate = self;
+        [animation setValue:handView forKey:@"handView"];
+        [handView.layer addAnimation:animation forKey:nil];
+    } else {
+        handView.layer.transform = transform;
+    }
+}
+
+- (void)animationDidStop:(CABasicAnimation *)anim finished:(BOOL)flag
+{
+    UIView *handView = [anim valueForKey:@"handView"];
+    handView.layer.transform = [anim.toValue CATransform3DValue];
 }
 
 - (UIView *)clockView
