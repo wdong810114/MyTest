@@ -34,7 +34,10 @@
                              @{@"title" : @"SpecialLayer4", @"class" : @"SpecialLayer4ViewController"},
                              @{@"title" : @"ImplicitAnimation1", @"class" : @"ImplicitAnimation1ViewController"},
                              @{@"title" : @"ImplicitAnimation2", @"class" : @"ImplicitAnimation2ViewController"},
-                             @{@"title" : @"ExplicitAnimation1", @"class" : @"ExplicitAnimation1ViewController"}];
+                             @{@"title" : @"ExplicitAnimation1", @"class" : @"ExplicitAnimation1ViewController"},
+                             @{@"title" : @"ExplicitAnimation2", @"class" : @"ExplicitAnimation2ViewController"},
+                             @{@"title" : @"ExplicitAnimation3", @"class" : @"ExplicitAnimation3ViewController"},
+                             @{@"title" : @"ExplicitAnimation4", @"class" : @"ExplicitAnimation4ViewController"}];
     }
     
     return self;
