@@ -29,6 +29,9 @@
 		4C6E9A641C965ECC00692DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E9A631C965ECC00692DDC /* Assets.xcassets */; };
 		4C6E9A671C965ECC00692DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E9A651C965ECC00692DDC /* LaunchScreen.storyboard */; };
 		4C6E9A6F1C96619800692DDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6E9A6E1C96619800692DDC /* CoreGraphics.framework */; };
+		4C813D781D0FFC69009D42BC /* door@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C813D771D0FFC69009D42BC /* door@2x.png */; };
+		4C813D7B1D0FFD45009D42BC /* TimingAnimation1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C813D7A1D0FFD45009D42BC /* TimingAnimation1ViewController.m */; };
+		4C813D7E1D100373009D42BC /* TimingAnimation2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C813D7D1D100373009D42BC /* TimingAnimation2ViewController.m */; };
 		4C871ECE1D051BF800CED472 /* SpecialLayer2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C871ECD1D051BF800CED472 /* SpecialLayer2ViewController.m */; };
 		4C871ED11D0541CA00CED472 /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C871ED01D0541CA00CED472 /* ReflectionView.m */; };
 		4C871ED31D054AF100CED472 /* forest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C871ED21D054AF100CED472 /* forest.jpg */; };
@@ -114,6 +117,11 @@
 		4C6E9A661C965ECC00692DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C6E9A681C965ECC00692DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C6E9A6E1C96619800692DDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C813D771D0FFC69009D42BC /* door@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "door@2x.png"; sourceTree = "<group>"; };
+		4C813D791D0FFD45009D42BC /* TimingAnimation1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimingAnimation1ViewController.h; sourceTree = "<group>"; };
+		4C813D7A1D0FFD45009D42BC /* TimingAnimation1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimingAnimation1ViewController.m; sourceTree = "<group>"; };
+		4C813D7C1D100373009D42BC /* TimingAnimation2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimingAnimation2ViewController.h; sourceTree = "<group>"; };
+		4C813D7D1D100373009D42BC /* TimingAnimation2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimingAnimation2ViewController.m; sourceTree = "<group>"; };
 		4C871ECC1D051BF800CED472 /* SpecialLayer2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialLayer2ViewController.h; sourceTree = "<group>"; };
 		4C871ECD1D051BF800CED472 /* SpecialLayer2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialLayer2ViewController.m; sourceTree = "<group>"; };
 		4C871ECF1D0541CA00CED472 /* ReflectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectionView.h; sourceTree = "<group>"; };
@@ -310,6 +318,10 @@
 				4C50533B1D080632009423BA /* ExplicitAnimation3ViewController.m */,
 				4C50533D1D081559009423BA /* ExplicitAnimation4ViewController.h */,
 				4C50533E1D081559009423BA /* ExplicitAnimation4ViewController.m */,
+				4C813D791D0FFD45009D42BC /* TimingAnimation1ViewController.h */,
+				4C813D7A1D0FFD45009D42BC /* TimingAnimation1ViewController.m */,
+				4C813D7C1D100373009D42BC /* TimingAnimation2ViewController.h */,
+				4C813D7D1D100373009D42BC /* TimingAnimation2ViewController.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -317,6 +329,7 @@
 		4CC12ACD1CF2F11200F3E057 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				4C813D771D0FFC69009D42BC /* door@2x.png */,
 				4C6874DE1D065A5900D2FD6E /* movie.mp4 */,
 				4C871EDA1D056E8C00CED472 /* star@2x.png */,
 				4C871ED21D054AF100CED472 /* forest.jpg */,
@@ -486,6 +499,7 @@
 				4C5053491D08165B009423BA /* shouye@2x.png in Resources */,
 				4C6874DF1D065A5900D2FD6E /* movie.mp4 in Resources */,
 				4C5053461D08165B009423BA /* geren@2x.png in Resources */,
+				4C813D781D0FFC69009D42BC /* door@2x.png in Resources */,
 				4C871EDB1D056E8C00CED472 /* star@2x.png in Resources */,
 				4C6E9A671C965ECC00692DDC /* LaunchScreen.storyboard in Resources */,
 				4C6E9A641C965ECC00692DDC /* Assets.xcassets in Resources */,
@@ -504,6 +518,7 @@
 			files = (
 				4CEBB8921C9BD79B006E7121 /* Database2ViewController.m in Sources */,
 				4CF681481C9A93CE000591DA /* Database1ViewController.m in Sources */,
+				4C813D7B1D0FFD45009D42BC /* TimingAnimation1ViewController.m in Sources */,
 				4CECDABF1CA13D72006F18C5 /* Animation2ViewController.m in Sources */,
 				4C871ECE1D051BF800CED472 /* SpecialLayer2ViewController.m in Sources */,
 				4CF681371C9A43A4000591DA /* BaseViewController.m in Sources */,
@@ -515,6 +530,7 @@
 				4C50533F1D081559009423BA /* ExplicitAnimation4ViewController.m in Sources */,
 				4C871ED61D0553C800CED472 /* ScrollView.m in Sources */,
 				4CFD12B41CFFDF9800C9A30C /* CoreAnimation4ViewController.m in Sources */,
+				4C813D7E1D100373009D42BC /* TimingAnimation2ViewController.m in Sources */,
 				4C5053391D07F8E5009423BA /* ExplicitAnimation2ViewController.m in Sources */,
 				4CE661141CF40594006E624C /* CoreAnimation2ViewController.m in Sources */,
 				4C6874EA1D06B02100D2FD6E /* ImplicitAnimation2ViewController.m in Sources */,

@@ -24,6 +24,8 @@
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
     
+//    self.window.layer.speed = 0.5;
+    
     return YES;
 }
 

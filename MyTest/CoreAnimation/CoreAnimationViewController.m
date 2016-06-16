@@ -37,7 +37,9 @@
                              @{@"title" : @"ExplicitAnimation1", @"class" : @"ExplicitAnimation1ViewController"},
                              @{@"title" : @"ExplicitAnimation2", @"class" : @"ExplicitAnimation2ViewController"},
                              @{@"title" : @"ExplicitAnimation3", @"class" : @"ExplicitAnimation3ViewController"},
-                             @{@"title" : @"ExplicitAnimation4", @"class" : @"ExplicitAnimation4ViewController"}];
+                             @{@"title" : @"ExplicitAnimation4", @"class" : @"ExplicitAnimation4ViewController"},
+                             @{@"title" : @"TimingAnimation1", @"class" : @"TimingAnimation1ViewController"},
+                             @{@"title" : @"TimingAnimation2", @"class" : @"TimingAnimation2ViewController"}];
     }
     
     return self;
