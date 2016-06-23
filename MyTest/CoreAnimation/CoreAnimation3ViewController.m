@@ -98,9 +98,11 @@
         CABasicAnimation *animation = [CABasicAnimation animation];
         [self updateHandsAnimated:NO];
         animation.keyPath = @"transform";
+        animation.fromValue = [handView.layer.presentationLayer valueForKey:@"transform"];
         animation.toValue = [NSValue valueWithCATransform3D:transform];
         animation.duration = 0.5;
         animation.delegate = self;
+        animation.timingFunction = [CAMediaTimingFunction functionWithControlPoints:1 :0 :0.75 :1];
         [animation setValue:handView forKey:@"handView"];
         [handView.layer addAnimation:animation forKey:nil];
     } else {

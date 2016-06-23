@@ -28,6 +28,8 @@
                              @{@"title" : @"CoreAnimation3", @"class" : @"CoreAnimation3ViewController"},
                              @{@"title" : @"CoreAnimation4", @"class" : @"CoreAnimation4ViewController"},
                              @{@"title" : @"CoreAnimation5", @"class" : @"CoreAnimation5ViewController"},
+                             @{@"title" : @"CoreAnimation6", @"class" : @"CoreAnimation6ViewController"},
+                             @{@"title" : @"CoreAnimation7", @"class" : @"CoreAnimation7ViewController"},
                              @{@"title" : @"SpecialLayer1", @"class" : @"SpecialLayer1ViewController"},
                              @{@"title" : @"SpecialLayer2", @"class" : @"SpecialLayer2ViewController"},
                              @{@"title" : @"SpecialLayer3", @"class" : @"SpecialLayer3ViewController"},
@@ -39,7 +41,10 @@
                              @{@"title" : @"ExplicitAnimation3", @"class" : @"ExplicitAnimation3ViewController"},
                              @{@"title" : @"ExplicitAnimation4", @"class" : @"ExplicitAnimation4ViewController"},
                              @{@"title" : @"TimingAnimation1", @"class" : @"TimingAnimation1ViewController"},
-                             @{@"title" : @"TimingAnimation2", @"class" : @"TimingAnimation2ViewController"}];
+                             @{@"title" : @"TimingAnimation2", @"class" : @"TimingAnimation2ViewController"},
+                             @{@"title" : @"TimingAnimation3", @"class" : @"TimingAnimation3ViewController"},
+                             @{@"title" : @"TimingAnimation4", @"class" : @"TimingAnimation4ViewController"},
+                             @{@"title" : @"TimerAnimation1", @"class" : @"TimerAnimation1ViewController"}];
     }
     
     return self;

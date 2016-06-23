@@ -53,6 +53,8 @@
                          (__bridge id)[UIColor redColor].CGColor,
                          (__bridge id)[UIColor greenColor].CGColor,
                          (__bridge id)[UIColor blueColor].CGColor];
+    CAMediaTimingFunction *fn = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];
+    animation.timingFunctions = [NSArray arrayWithObjects:fn, fn, fn, nil];
     [self.colorLayer addAnimation:animation forKey:nil];
 }
 
