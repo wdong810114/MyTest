@@ -64,6 +64,8 @@
 		4CF402911D192665005D39D0 /* DrawingView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF402901D192665005D39D0 /* DrawingView1.m */; };
 		4CF402931D192831005D39D0 /* brush@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF402921D192831005D39D0 /* brush@2x.png */; };
 		4CF5049F1D1B81FE004F2AE3 /* CoreAnimation7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF5049E1D1B81FE004F2AE3 /* CoreAnimation7ViewController.m */; };
+		4CF5EA401D26358500E55162 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF5EA3F1D26358500E55162 /* GCDViewController.m */; };
+		4CF5EA431D26398700E55162 /* GCDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF5EA421D26398700E55162 /* GCDManager.m */; };
 		4CF680ED1C9A3782000591DA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF680EC1C9A3782000591DA /* MainViewController.m */; };
 		4CF681281C9A3A8A000591DA /* Animation1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF681121C9A3A89000591DA /* Animation1ViewController.m */; };
 		4CF6812F1C9A3A8A000591DA /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF681231C9A3A8A000591DA /* BaseModel.m */; };
@@ -190,6 +192,10 @@
 		4CF402921D192831005D39D0 /* brush@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brush@2x.png"; sourceTree = "<group>"; };
 		4CF5049D1D1B81FE004F2AE3 /* CoreAnimation7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimation7ViewController.h; sourceTree = "<group>"; };
 		4CF5049E1D1B81FE004F2AE3 /* CoreAnimation7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimation7ViewController.m; sourceTree = "<group>"; };
+		4CF5EA3E1D26358500E55162 /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		4CF5EA3F1D26358500E55162 /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		4CF5EA411D26398700E55162 /* GCDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDManager.h; sourceTree = "<group>"; };
+		4CF5EA421D26398700E55162 /* GCDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDManager.m; sourceTree = "<group>"; };
 		4CF680EB1C9A3782000591DA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		4CF680EC1C9A3782000591DA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		4CF681111C9A3A89000591DA /* Animation1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation1ViewController.h; sourceTree = "<group>"; };
@@ -288,6 +294,7 @@
 				4CF681211C9A3A8A000591DA /* KVC */,
 				4CF681131C9A3A89000591DA /* Database */,
 				4CC12AC71CF2D1A400F3E057 /* CoreAnimation */,
+				4CF5EA3D1D26353F00E55162 /* GCD */,
 				4C6E9A571C965ECC00692DDC /* Supporting Files */,
 				4CF681351C9A43A4000591DA /* BaseViewController.h */,
 				4CF681361C9A43A4000591DA /* BaseViewController.m */,
@@ -390,6 +397,17 @@
 				4C5053411D08165B009423BA /* geren@2x.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		4CF5EA3D1D26353F00E55162 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				4CF5EA3E1D26358500E55162 /* GCDViewController.h */,
+				4CF5EA3F1D26358500E55162 /* GCDViewController.m */,
+				4CF5EA411D26398700E55162 /* GCDManager.h */,
+				4CF5EA421D26398700E55162 /* GCDManager.m */,
+			);
+			path = GCD;
 			sourceTree = "<group>";
 		};
 		4CF681101C9A3A89000591DA /* Animation */ = {
@@ -568,6 +586,7 @@
 				4CEBB8921C9BD79B006E7121 /* Database2ViewController.m in Sources */,
 				4CF681481C9A93CE000591DA /* Database1ViewController.m in Sources */,
 				4C813D7B1D0FFD45009D42BC /* TimingAnimation1ViewController.m in Sources */,
+				4CF5EA401D26358500E55162 /* GCDViewController.m in Sources */,
 				4CECDABF1CA13D72006F18C5 /* Animation2ViewController.m in Sources */,
 				4C871ECE1D051BF800CED472 /* SpecialLayer2ViewController.m in Sources */,
 				4CF681371C9A43A4000591DA /* BaseViewController.m in Sources */,
@@ -611,6 +630,7 @@
 				4CE661171CF43F70006E624C /* CoreAnimation3ViewController.m in Sources */,
 				4C41F3671CA270F9006B71FD /* StatusMessageView.m in Sources */,
 				4CF6814E1C9A93CE000591DA /* DDUserService.m in Sources */,
+				4CF5EA431D26398700E55162 /* GCDManager.m in Sources */,
 				4CEBB8BF1C9BF11B006E7121 /* UserDAO.m in Sources */,
 				4CC12ACA1CF2D1C200F3E057 /* CoreAnimation1ViewController.m in Sources */,
 				4CFBF95D1D0165C7007541AA /* CoreAnimationViewController.m in Sources */,

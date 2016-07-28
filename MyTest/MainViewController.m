@@ -29,7 +29,8 @@
                              @{@"title" : @"SimpleKVC", @"class" : @"KVC1ViewController"},
                              @{@"title" : @"SqliteDatabase", @"class" : @"Database1ViewController"},
                              @{@"title" : @"CoreDataDatabase", @"class" : @"Database2ViewController"},
-                             @{@"title" : @"CoreAnimation", @"class" : @"CoreAnimationViewController"}];
+                             @{@"title" : @"CoreAnimation", @"class" : @"CoreAnimationViewController"},
+                             @{@"title" : @"GCD", @"class" : @"GCDViewController"}];
     }
     
     return self;
