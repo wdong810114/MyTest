@@ -46,6 +46,10 @@
     [self.layerView.layer addSublayer:self.colorLayer];
     
     [self.layerView addSubview:self.changeButton];
+    
+    CGPoint point1 = [self.colorLayer convertPoint:CGPointMake(5.0, 10.0) toLayer:self.layerView.layer];
+    CGPoint point2 = [self.layerView.layer convertPoint:CGPointMake(30.0, 40.0) fromLayer:self.colorLayer];
+    NSLog(@"point1: %@, point2: %@", NSStringFromCGPoint(point1), NSStringFromCGPoint(point2));
 }
 
 - (void)changeColor
