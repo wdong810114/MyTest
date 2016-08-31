@@ -94,7 +94,7 @@
         self.shipLayer.timeOffset = 0.0;
         self.shipLayer.beginTime = 0.0;
         CFTimeInterval timeSincePause = [self.shipLayer convertTime:CACurrentMediaTime() fromLayer:nil] - pausedTime;
-        self.shipLayer.beginTime = timeSincePause - 0.2;
+        self.shipLayer.beginTime = timeSincePause;
         NSLog(@"start timeOffset: %0.2f, beginTime: %0.2f", self.shipLayer.timeOffset, self.shipLayer.beginTime);
         
         _isPlaying = YES;

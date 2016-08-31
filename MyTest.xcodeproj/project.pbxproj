@@ -261,12 +261,6 @@
 		4C6E9A4B1C965ECC00692DDC = {
 			isa = PBXGroup;
 			children = (
-				4C6874E01D065A8600D2FD6E /* AVFoundation.framework */,
-				4CFBF9641D017EBB007541AA /* CoreText.framework */,
-				4CFBF9591D01555C007541AA /* GLKit.framework */,
-				4CFDFE9C1C97DFC300293883 /* libsqlite3.tbd */,
-				4C6E9A6E1C96619800692DDC /* CoreGraphics.framework */,
-				4CC12ACB1CF2D58C00F3E057 /* QuartzCore.framework */,
 				4C6E9A561C965ECC00692DDC /* MyTest */,
 				4C6E9A551C965ECC00692DDC /* Products */,
 			);
@@ -299,6 +293,7 @@
 				4CF681351C9A43A4000591DA /* BaseViewController.h */,
 				4CF681361C9A43A4000591DA /* BaseViewController.m */,
 				4CEBB8931C9BD81F006E7121 /* Constants.h */,
+				4CBA69E21D6BDBB600AAC822 /* Frameworks */,
 				4CC12ACD1CF2F11200F3E057 /* Images */,
 			);
 			path = MyTest;
@@ -310,6 +305,19 @@
 				4C6E9A581C965ECC00692DDC /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CBA69E21D6BDBB600AAC822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C6874E01D065A8600D2FD6E /* AVFoundation.framework */,
+				4CFBF9641D017EBB007541AA /* CoreText.framework */,
+				4CFBF9591D01555C007541AA /* GLKit.framework */,
+				4CFDFE9C1C97DFC300293883 /* libsqlite3.tbd */,
+				4C6E9A6E1C96619800692DDC /* CoreGraphics.framework */,
+				4CC12ACB1CF2D58C00F3E057 /* QuartzCore.framework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 		4CC12AC71CF2D1A400F3E057 /* CoreAnimation */ = {
