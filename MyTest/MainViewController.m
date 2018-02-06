@@ -30,7 +30,8 @@
                              @{@"title" : @"SqliteDatabase", @"class" : @"Database1ViewController"},
                              @{@"title" : @"CoreDataDatabase", @"class" : @"Database2ViewController"},
                              @{@"title" : @"CoreAnimation", @"class" : @"CoreAnimationViewController"},
-                             @{@"title" : @"GCD", @"class" : @"GCDViewController"}];
+                             @{@"title" : @"GCD", @"class" : @"GCDViewController"},
+                             @{@"title" : @"NSOperation", @"class" : @"OperationViewController"}];
     }
     
     return self;
