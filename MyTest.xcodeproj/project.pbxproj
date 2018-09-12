@@ -91,6 +91,7 @@
 		4CFD12B41CFFDF9800C9A30C /* CoreAnimation4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD12B31CFFDF9800C9A30C /* CoreAnimation4ViewController.m */; };
 		4CFDFE9D1C97DFC300293883 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFDFE9C1C97DFC300293883 /* libsqlite3.tbd */; };
 		7A9F1A7F202999E7009EA3DF /* OperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F1A7E202999E7009EA3DF /* OperationViewController.m */; };
+		7ACD9D852148F9680075BF20 /* Animation4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD9D842148F9680075BF20 /* Animation4ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -242,6 +243,8 @@
 		4CFDFE9C1C97DFC300293883 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		7A9F1A7D202999E7009EA3DF /* OperationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationViewController.h; sourceTree = "<group>"; };
 		7A9F1A7E202999E7009EA3DF /* OperationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationViewController.m; sourceTree = "<group>"; };
+		7ACD9D832148F9680075BF20 /* Animation4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animation4ViewController.h; sourceTree = "<group>"; };
+		7ACD9D842148F9680075BF20 /* Animation4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animation4ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -436,6 +439,8 @@
 				4C41F3691CA2741B006B71FD /* StatusMessageHandle.m */,
 				4C41F3651CA270F9006B71FD /* StatusMessageView.h */,
 				4C41F3661CA270F9006B71FD /* StatusMessageView.m */,
+				7ACD9D832148F9680075BF20 /* Animation4ViewController.h */,
+				7ACD9D842148F9680075BF20 /* Animation4ViewController.m */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -647,6 +652,7 @@
 				4CEBB8BC1C9BEBB1006E7121 /* CoreDataDAO.m in Sources */,
 				4CE471031C9F848500B2836A /* UserManagedObject+CoreDataProperties.m in Sources */,
 				4C6E9A591C965ECC00692DDC /* main.m in Sources */,
+				7ACD9D852148F9680075BF20 /* Animation4ViewController.m in Sources */,
 				4CF681521C9A97BD000591DA /* myDatabase.xcdatamodeld in Sources */,
 				4CFBF9681D018245007541AA /* LayerLabel.m in Sources */,
 				4CE661171CF43F70006E624C /* CoreAnimation3ViewController.m in Sources */,
