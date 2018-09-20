@@ -32,7 +32,8 @@
                              @{@"title" : @"CoreAnimation", @"class" : @"CoreAnimationViewController"},
                              @{@"title" : @"GCD", @"class" : @"GCDViewController"},
                              @{@"title" : @"NSOperation", @"class" : @"OperationViewController"},
-                             @{@"title" : @"UIBezierPath", @"class" : @"Animation4ViewController"}];
+                             @{@"title" : @"UIBezierPath", @"class" : @"Animation4ViewController"},
+                             @{@"title" : @"Socket", @"class" : @"SocketViewController"}];
     }
     
     return self;

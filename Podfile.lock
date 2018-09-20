@@ -1,0 +1,15 @@
+PODS:
+  - CocoaAsyncSocket (7.6.2)
+  - JSONModel (1.7.0)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket
+  - JSONModel
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 3541e024f48c54b251638ef72d51dd42808de932
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+
+PODFILE CHECKSUM: c6e21805649ecd9ef521a9591b121e61c729c78b
+
+COCOAPODS: 1.4.0

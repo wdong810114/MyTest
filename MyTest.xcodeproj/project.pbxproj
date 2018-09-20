@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CBB113441B38B5AD7C38543 /* libPods-MyTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D91D95BAB3D32258ABFF2CC7 /* libPods-MyTest.a */; };
 		4C41F3631CA22A8D006B71FD /* Animation3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C41F3621CA22A8D006B71FD /* Animation3ViewController.m */; };
 		4C41F3671CA270F9006B71FD /* StatusMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C41F3661CA270F9006B71FD /* StatusMessageView.m */; };
 		4C41F36A1CA2741B006B71FD /* StatusMessageHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C41F3691CA2741B006B71FD /* StatusMessageHandle.m */; };
@@ -90,6 +91,10 @@
 		4CFD12B11CFFDF4B00C9A30C /* personal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFD12B01CFFDF4B00C9A30C /* personal@2x.png */; };
 		4CFD12B41CFFDF9800C9A30C /* CoreAnimation4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD12B31CFFDF9800C9A30C /* CoreAnimation4ViewController.m */; };
 		4CFDFE9D1C97DFC300293883 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFDFE9C1C97DFC300293883 /* libsqlite3.tbd */; };
+		7A5557BE21508ED90094CAB5 /* SocketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5557BD21508ED90094CAB5 /* SocketViewController.m */; };
+		7A5557C32150A2A20094CAB5 /* SocketUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5557BF2150A2A10094CAB5 /* SocketUtils.m */; };
+		7A5557C42150A2A20094CAB5 /* Models.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5557C02150A2A20094CAB5 /* Models.m */; };
+		7A5557C7215351880094CAB5 /* TCPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5557C6215351880094CAB5 /* TCPClient.m */; };
 		7A9F1A7F202999E7009EA3DF /* OperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F1A7E202999E7009EA3DF /* OperationViewController.m */; };
 		7ACD9D852148F9680075BF20 /* Animation4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD9D842148F9680075BF20 /* Animation4ViewController.m */; };
 /* End PBXBuildFile section */
@@ -241,10 +246,21 @@
 		4CFD12B21CFFDF9800C9A30C /* CoreAnimation4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimation4ViewController.h; sourceTree = "<group>"; };
 		4CFD12B31CFFDF9800C9A30C /* CoreAnimation4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimation4ViewController.m; sourceTree = "<group>"; };
 		4CFDFE9C1C97DFC300293883 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		7A5557BC21508ED90094CAB5 /* SocketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketViewController.h; sourceTree = "<group>"; };
+		7A5557BD21508ED90094CAB5 /* SocketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketViewController.m; sourceTree = "<group>"; };
+		7A5557BF2150A2A10094CAB5 /* SocketUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketUtils.m; sourceTree = "<group>"; };
+		7A5557C02150A2A20094CAB5 /* Models.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Models.m; sourceTree = "<group>"; };
+		7A5557C12150A2A20094CAB5 /* SocketUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketUtils.h; sourceTree = "<group>"; };
+		7A5557C22150A2A20094CAB5 /* Models.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Models.h; sourceTree = "<group>"; };
+		7A5557C5215351880094CAB5 /* TCPClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPClient.h; sourceTree = "<group>"; };
+		7A5557C6215351880094CAB5 /* TCPClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPClient.m; sourceTree = "<group>"; };
 		7A9F1A7D202999E7009EA3DF /* OperationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationViewController.h; sourceTree = "<group>"; };
 		7A9F1A7E202999E7009EA3DF /* OperationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationViewController.m; sourceTree = "<group>"; };
 		7ACD9D832148F9680075BF20 /* Animation4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animation4ViewController.h; sourceTree = "<group>"; };
 		7ACD9D842148F9680075BF20 /* Animation4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animation4ViewController.m; sourceTree = "<group>"; };
+		86DC06C3998D2697DA89C98D /* Pods-MyTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyTest/Pods-MyTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D91D95BAB3D32258ABFF2CC7 /* libPods-MyTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBDAE2785936EBEC8112027 /* Pods-MyTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyTest/Pods-MyTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,17 +274,29 @@
 				4CFDFE9D1C97DFC300293883 /* libsqlite3.tbd in Frameworks */,
 				4C6E9A6F1C96619800692DDC /* CoreGraphics.framework in Frameworks */,
 				4CC12ACC1CF2D58C00F3E057 /* QuartzCore.framework in Frameworks */,
+				0CBB113441B38B5AD7C38543 /* libPods-MyTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		282598E060532CF29B44BC5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86DC06C3998D2697DA89C98D /* Pods-MyTest.debug.xcconfig */,
+				EEBDAE2785936EBEC8112027 /* Pods-MyTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4C6E9A4B1C965ECC00692DDC = {
 			isa = PBXGroup;
 			children = (
 				4C6E9A561C965ECC00692DDC /* MyTest */,
 				4C6E9A551C965ECC00692DDC /* Products */,
+				282598E060532CF29B44BC5A /* Pods */,
+				62335C9AEAB2A84C08BE9AFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -287,6 +315,7 @@
 				4C6E9A5B1C965ECC00692DDC /* AppDelegate.m */,
 				4CF680EB1C9A3782000591DA /* MainViewController.h */,
 				4CF680EC1C9A3782000591DA /* MainViewController.m */,
+				7A5557BB21508EA40094CAB5 /* Socket */,
 				4CF681101C9A3A89000591DA /* Animation */,
 				4CF681211C9A3A8A000591DA /* KVC */,
 				4CF681131C9A3A89000591DA /* Database */,
@@ -515,6 +544,29 @@
 			path = CoreData;
 			sourceTree = "<group>";
 		};
+		62335C9AEAB2A84C08BE9AFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D91D95BAB3D32258ABFF2CC7 /* libPods-MyTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A5557BB21508EA40094CAB5 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				7A5557BC21508ED90094CAB5 /* SocketViewController.h */,
+				7A5557BD21508ED90094CAB5 /* SocketViewController.m */,
+				7A5557C22150A2A20094CAB5 /* Models.h */,
+				7A5557C02150A2A20094CAB5 /* Models.m */,
+				7A5557C12150A2A20094CAB5 /* SocketUtils.h */,
+				7A5557BF2150A2A10094CAB5 /* SocketUtils.m */,
+				7A5557C5215351880094CAB5 /* TCPClient.h */,
+				7A5557C6215351880094CAB5 /* TCPClient.m */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
 		7A9F1A7C202999AE009EA3DF /* Operation */ = {
 			isa = PBXGroup;
 			children = (
@@ -531,9 +583,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C6E9A6B1C965ECC00692DDC /* Build configuration list for PBXNativeTarget "MyTest" */;
 			buildPhases = (
+				97F2B47921A14750A0B96B95 /* [CP] Check Pods Manifest.lock */,
 				4C6E9A501C965ECC00692DDC /* Sources */,
 				4C6E9A511C965ECC00692DDC /* Frameworks */,
 				4C6E9A521C965ECC00692DDC /* Resources */,
+				A564A46E2BDB1454E08BA6C9 /* [CP] Embed Pods Frameworks */,
+				33E0077943C1C0270938EB80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -603,6 +658,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33E0077943C1C0270938EB80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyTest/Pods-MyTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97F2B47921A14750A0B96B95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A564A46E2BDB1454E08BA6C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyTest/Pods-MyTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4C6E9A501C965ECC00692DDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -642,6 +748,7 @@
 				4CF6814B1C9A93CE000591DA /* DDStatus.m in Sources */,
 				4CE471091C9F853F00B2836A /* User.m in Sources */,
 				4CF5049F1D1B81FE004F2AE3 /* CoreAnimation7ViewController.m in Sources */,
+				7A5557C32150A2A20094CAB5 /* SocketUtils.m in Sources */,
 				7A9F1A7F202999E7009EA3DF /* OperationViewController.m in Sources */,
 				4C6874DD1D0659CB00D2FD6E /* SpecialLayer4ViewController.m in Sources */,
 				4C6E9A5C1C965ECC00692DDC /* AppDelegate.m in Sources */,
@@ -655,11 +762,14 @@
 				7ACD9D852148F9680075BF20 /* Animation4ViewController.m in Sources */,
 				4CF681521C9A97BD000591DA /* myDatabase.xcdatamodeld in Sources */,
 				4CFBF9681D018245007541AA /* LayerLabel.m in Sources */,
+				7A5557C7215351880094CAB5 /* TCPClient.m in Sources */,
 				4CE661171CF43F70006E624C /* CoreAnimation3ViewController.m in Sources */,
 				4C41F3671CA270F9006B71FD /* StatusMessageView.m in Sources */,
 				4CF6814E1C9A93CE000591DA /* DDUserService.m in Sources */,
 				4CF5EA431D26398700E55162 /* GCDManager.m in Sources */,
+				7A5557BE21508ED90094CAB5 /* SocketViewController.m in Sources */,
 				4CEBB8BF1C9BF11B006E7121 /* UserDAO.m in Sources */,
+				7A5557C42150A2A20094CAB5 /* Models.m in Sources */,
 				4CC12ACA1CF2D1C200F3E057 /* CoreAnimation1ViewController.m in Sources */,
 				4CFBF95D1D0165C7007541AA /* CoreAnimationViewController.m in Sources */,
 				4CE4710C1C9F855100B2836A /* Status.m in Sources */,
@@ -731,7 +841,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -776,7 +886,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -785,10 +895,11 @@
 		};
 		4C6E9A6C1C965ECC00692DDC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86DC06C3998D2697DA89C98D /* Pods-MyTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sysxit.coopmall;
 				PRODUCT_NAME = MyTest;
@@ -797,10 +908,11 @@
 		};
 		4C6E9A6D1C965ECC00692DDC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEBDAE2785936EBEC8112027 /* Pods-MyTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sysxit.coopmall;
 				PRODUCT_NAME = MyTest;
