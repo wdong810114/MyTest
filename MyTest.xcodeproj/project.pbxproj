@@ -95,6 +95,10 @@
 		7A5557C32150A2A20094CAB5 /* SocketUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5557BF2150A2A10094CAB5 /* SocketUtils.m */; };
 		7A5557C42150A2A20094CAB5 /* Models.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5557C02150A2A20094CAB5 /* Models.m */; };
 		7A5557C7215351880094CAB5 /* TCPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5557C6215351880094CAB5 /* TCPClient.m */; };
+		7A5557CA215383B30094CAB5 /* XTTCPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5557C9215383B30094CAB5 /* XTTCPClient.m */; };
+		7A5557CD2153892D0094CAB5 /* XTSocketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5557CC2153892D0094CAB5 /* XTSocketViewController.m */; };
+		7A873E67215DCF7F00A47F4B /* cert.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 7A873E66215DCF7F00A47F4B /* cert.p12 */; };
+		7A873E69215DDA0A00A47F4B /* cert.cer in Resources */ = {isa = PBXBuildFile; fileRef = 7A873E68215DDA0A00A47F4B /* cert.cer */; };
 		7A9F1A7F202999E7009EA3DF /* OperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F1A7E202999E7009EA3DF /* OperationViewController.m */; };
 		7ACD9D852148F9680075BF20 /* Animation4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD9D842148F9680075BF20 /* Animation4ViewController.m */; };
 /* End PBXBuildFile section */
@@ -254,6 +258,12 @@
 		7A5557C22150A2A20094CAB5 /* Models.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Models.h; sourceTree = "<group>"; };
 		7A5557C5215351880094CAB5 /* TCPClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPClient.h; sourceTree = "<group>"; };
 		7A5557C6215351880094CAB5 /* TCPClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPClient.m; sourceTree = "<group>"; };
+		7A5557C8215383B30094CAB5 /* XTTCPClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTTCPClient.h; sourceTree = "<group>"; };
+		7A5557C9215383B30094CAB5 /* XTTCPClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTTCPClient.m; sourceTree = "<group>"; };
+		7A5557CB2153892D0094CAB5 /* XTSocketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTSocketViewController.h; sourceTree = "<group>"; };
+		7A5557CC2153892D0094CAB5 /* XTSocketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTSocketViewController.m; sourceTree = "<group>"; };
+		7A873E66215DCF7F00A47F4B /* cert.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cert.p12; sourceTree = "<group>"; };
+		7A873E68215DDA0A00A47F4B /* cert.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = cert.cer; sourceTree = "<group>"; };
 		7A9F1A7D202999E7009EA3DF /* OperationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationViewController.h; sourceTree = "<group>"; };
 		7A9F1A7E202999E7009EA3DF /* OperationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationViewController.m; sourceTree = "<group>"; };
 		7ACD9D832148F9680075BF20 /* Animation4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animation4ViewController.h; sourceTree = "<group>"; };
@@ -563,6 +573,12 @@
 				7A5557BF2150A2A10094CAB5 /* SocketUtils.m */,
 				7A5557C5215351880094CAB5 /* TCPClient.h */,
 				7A5557C6215351880094CAB5 /* TCPClient.m */,
+				7A5557CB2153892D0094CAB5 /* XTSocketViewController.h */,
+				7A5557CC2153892D0094CAB5 /* XTSocketViewController.m */,
+				7A5557C8215383B30094CAB5 /* XTTCPClient.h */,
+				7A5557C9215383B30094CAB5 /* XTTCPClient.m */,
+				7A873E66215DCF7F00A47F4B /* cert.p12 */,
+				7A873E68215DDA0A00A47F4B /* cert.cer */,
 			);
 			path = Socket;
 			sourceTree = "<group>";
@@ -610,6 +626,7 @@
 				TargetAttributes = {
 					4C6E9A531C965ECC00692DDC = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = C8RJ2CF978;
 					};
 				};
 			};
@@ -646,11 +663,13 @@
 				4C6874DF1D065A5900D2FD6E /* movie.mp4 in Resources */,
 				4C5053461D08165B009423BA /* geren@2x.png in Resources */,
 				4C813D781D0FFC69009D42BC /* door@2x.png in Resources */,
+				7A873E67215DCF7F00A47F4B /* cert.p12 in Resources */,
 				4C871EDB1D056E8C00CED472 /* star@2x.png in Resources */,
 				4CF402931D192831005D39D0 /* brush@2x.png in Resources */,
 				4C6E9A671C965ECC00692DDC /* LaunchScreen.storyboard in Resources */,
 				4C6E9A641C965ECC00692DDC /* Assets.xcassets in Resources */,
 				4CC12ADB1CF3057600F3E057 /* drinks@2x.png in Resources */,
+				7A873E69215DDA0A00A47F4B /* cert.cer in Resources */,
 				4C9D467F1D000D3C0063A6E8 /* digits@2x.png in Resources */,
 				4CE661111CF3F533006E624C /* points@2x.png in Resources */,
 			);
@@ -729,6 +748,7 @@
 				4C6874E71D065F9D00D2FD6E /* ImplicitAnimation1ViewController.m in Sources */,
 				4CF6812F1C9A3A8A000591DA /* BaseModel.m in Sources */,
 				4C41F36A1CA2741B006B71FD /* StatusMessageHandle.m in Sources */,
+				7A5557CD2153892D0094CAB5 /* XTSocketViewController.m in Sources */,
 				4C50533F1D081559009423BA /* ExplicitAnimation4ViewController.m in Sources */,
 				4CF4028B1D191967005D39D0 /* DrawingView.m in Sources */,
 				4C871ED61D0553C800CED472 /* ScrollView.m in Sources */,
@@ -748,6 +768,7 @@
 				4CF6814B1C9A93CE000591DA /* DDStatus.m in Sources */,
 				4CE471091C9F853F00B2836A /* User.m in Sources */,
 				4CF5049F1D1B81FE004F2AE3 /* CoreAnimation7ViewController.m in Sources */,
+				7A5557CA215383B30094CAB5 /* XTTCPClient.m in Sources */,
 				7A5557C32150A2A20094CAB5 /* SocketUtils.m in Sources */,
 				7A9F1A7F202999E7009EA3DF /* OperationViewController.m in Sources */,
 				4C6874DD1D0659CB00D2FD6E /* SpecialLayer4ViewController.m in Sources */,
@@ -898,10 +919,11 @@
 			baseConfigurationReference = 86DC06C3998D2697DA89C98D /* Pods-MyTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C8RJ2CF978;
 				INFOPLIST_FILE = MyTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sysxit.coopmall;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtszkj.happypay;
 				PRODUCT_NAME = MyTest;
 			};
 			name = Debug;
@@ -911,10 +933,11 @@
 			baseConfigurationReference = EEBDAE2785936EBEC8112027 /* Pods-MyTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C8RJ2CF978;
 				INFOPLIST_FILE = MyTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sysxit.coopmall;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtszkj.happypay;
 				PRODUCT_NAME = MyTest;
 			};
 			name = Release;

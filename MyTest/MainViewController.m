@@ -33,7 +33,8 @@
                              @{@"title" : @"GCD", @"class" : @"GCDViewController"},
                              @{@"title" : @"NSOperation", @"class" : @"OperationViewController"},
                              @{@"title" : @"UIBezierPath", @"class" : @"Animation4ViewController"},
-                             @{@"title" : @"Socket", @"class" : @"SocketViewController"}];
+                             @{@"title" : @"Socket", @"class" : @"SocketViewController"},
+                             @{@"title" : @"GCDSocket", @"class" : @"XTSocketViewController"}];
     }
     
     return self;

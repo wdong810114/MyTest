@@ -65,12 +65,12 @@ NSString * const TYPE_ARRAY  = @"T@\"NSArray\"";
 - (void)initSubViews {
     UITextField *hostTextField = [[UITextField alloc] initWithFrame:CGRectMake(10, 50, 150, 50)];
     hostTextField.backgroundColor = [UIColor whiteColor];
-    hostTextField.text = @"127.0.0.1";
+    hostTextField.text = @"192.168.4.217";
     self.hostTextField = hostTextField;
     
     UITextField *portTextField = [[UITextField alloc] initWithFrame:CGRectMake(170, 50, 80, 50)];
     portTextField.backgroundColor = [UIColor whiteColor];
-    portTextField.text = @"12345";
+    portTextField.text = @"9912";
     self.portTextField = portTextField;
     
     UIButton *connectButton = [[UIButton alloc] initWithFrame:CGRectMake(260, 50, 50, 50)];
@@ -129,7 +129,7 @@ NSString * const TYPE_ARRAY  = @"T@\"NSArray\"";
         memset(&serverAddr, 0, sizeof(serverAddr));
         serverAddr.sin_len = sizeof(serverAddr);
         serverAddr.sin_family = AF_INET;
-        serverAddr.sin_port = htons(9912);
+        serverAddr.sin_port = htons(8899);
         serverAddr.sin_addr.s_addr = inet_addr("192.168.4.217");
         
         int result = connect(self.clientSocket, (const struct sockaddr *)&serverAddr, sizeof(serverAddr));
@@ -138,6 +138,8 @@ NSString * const TYPE_ARRAY  = @"T@\"NSArray\"";
             self.statusLabel.text = @"创建连接成功";
             
             self.isConnected = YES;
+            
+            [self readStream];
         } else {
             self.statusLabel.text = @"创建连接失败";
         }
@@ -163,14 +165,19 @@ NSString * const TYPE_ARRAY  = @"T@\"NSArray\"";
             self.statusLabel.text = [NSString stringWithFormat:@"发送了 %ld 字节", sendLength];
         }
         
-        char buf[1024] = {0};
-        size_t len = sizeof(buf);
-        ssize_t receivedLength = recv(self.clientSocket, buf, len, 0);
-        if(receivedLength > 0) {
-            self.statusLabel.text = [NSString stringWithFormat:@"接收了 %ld 字节", receivedLength];
+        [self readStream];
+    }
+}
 
-            self.receivedMsgLabel.text = [NSString stringWithCString:buf encoding:NSUTF8StringEncoding];
-        }
+// 接收数据
+- (void)readStream {
+    char buf[1024] = {0};
+    size_t len = sizeof(buf);
+    ssize_t receivedLength = recv(self.clientSocket, buf, len, 0);
+    if(receivedLength > 0) {
+        self.statusLabel.text = [NSString stringWithFormat:@"接收了 %ld 字节", receivedLength];
+        
+        self.receivedMsgLabel.text = [NSString stringWithCString:buf encoding:NSUTF8StringEncoding];
     }
 }
 
@@ -256,3 +263,19 @@ NSString * const TYPE_ARRAY  = @"T@\"NSArray\"";
 }
 
 @end
+
+/*
+// json转model
+NSError *error;
+CountryModel *country = [[CountryModel alloc] initWithString:myJson error:&error];
+
+// model转json/dict
+ProductModel *pm = [ProductModel new];
+pm.name = @"Some Name";
+
+// convert to dictionary
+NSDictionary *dict = [pm toDictionary];
+
+// convert to json
+NSString *string = [pm toJSONString];
+*/
