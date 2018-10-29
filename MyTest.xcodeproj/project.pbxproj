@@ -66,7 +66,6 @@
 		4CF402931D192831005D39D0 /* brush@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF402921D192831005D39D0 /* brush@2x.png */; };
 		4CF5049F1D1B81FE004F2AE3 /* CoreAnimation7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF5049E1D1B81FE004F2AE3 /* CoreAnimation7ViewController.m */; };
 		4CF5EA401D26358500E55162 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF5EA3F1D26358500E55162 /* GCDViewController.m */; };
-		4CF5EA431D26398700E55162 /* GCDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF5EA421D26398700E55162 /* GCDManager.m */; };
 		4CF680ED1C9A3782000591DA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF680EC1C9A3782000591DA /* MainViewController.m */; };
 		4CF681281C9A3A8A000591DA /* Animation1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF681121C9A3A89000591DA /* Animation1ViewController.m */; };
 		4CF6812F1C9A3A8A000591DA /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF681231C9A3A8A000591DA /* BaseModel.m */; };
@@ -205,8 +204,6 @@
 		4CF5049E1D1B81FE004F2AE3 /* CoreAnimation7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimation7ViewController.m; sourceTree = "<group>"; };
 		4CF5EA3E1D26358500E55162 /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
 		4CF5EA3F1D26358500E55162 /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
-		4CF5EA411D26398700E55162 /* GCDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDManager.h; sourceTree = "<group>"; };
-		4CF5EA421D26398700E55162 /* GCDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDManager.m; sourceTree = "<group>"; };
 		4CF680EB1C9A3782000591DA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		4CF680EC1C9A3782000591DA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		4CF681111C9A3A89000591DA /* Animation1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation1ViewController.h; sourceTree = "<group>"; };
@@ -458,8 +455,6 @@
 			children = (
 				4CF5EA3E1D26358500E55162 /* GCDViewController.h */,
 				4CF5EA3F1D26358500E55162 /* GCDViewController.m */,
-				4CF5EA411D26398700E55162 /* GCDManager.h */,
-				4CF5EA421D26398700E55162 /* GCDManager.m */,
 			);
 			path = GCD;
 			sourceTree = "<group>";
@@ -787,7 +782,6 @@
 				4CE661171CF43F70006E624C /* CoreAnimation3ViewController.m in Sources */,
 				4C41F3671CA270F9006B71FD /* StatusMessageView.m in Sources */,
 				4CF6814E1C9A93CE000591DA /* DDUserService.m in Sources */,
-				4CF5EA431D26398700E55162 /* GCDManager.m in Sources */,
 				7A5557BE21508ED90094CAB5 /* SocketViewController.m in Sources */,
 				4CEBB8BF1C9BF11B006E7121 /* UserDAO.m in Sources */,
 				7A5557C42150A2A20094CAB5 /* Models.m in Sources */,
